@@ -1,0 +1,2371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naver</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/common.css">
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js" defer></script>
+</head>
+
+<body>
+    <div id="skipNav">
+        <a href="#main">본문내용 바로가기</a>
+    </div>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-inner">
+                <div class="group-search">
+                    <div class="bg"></div>
+                    <div class="search-area">
+                        <div class="search-wrap">
+                            <div class="search-inner">
+                                <h1 class="search-logo">
+                                    <a href="#" class="link-naver hat"><img
+                                            src="https://s.pstatic.net/static/www/mobile/edit/20230516_0/upload_1684217675277OZzsu.gif"
+                                            width="58" height="58" alt="NAVER"></a>
+                                    <a href="#" class="link-naver naver">
+                                        <span class="ico-logo-svg">
+                                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M16.273 12.845 7.376 0H0v24h7.727V11.155L16.624 24H24V0h-7.727v12.845z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                        <span class="blind">NAVER</span>
+                                    </a>
+                                </h1>
+                                <form action="" method="post">
+                                    <fieldset>
+                                        <legend class="blind">검색</legend>
+                                        <div class="search-input-box">
+                                            <input class="search-input" type="text" placeholder="검색어를 입력해 주세요."
+                                                title="검색어를 입력해주세요.">
+                                        </div>
+                                        <button class="btn-search" type="button">
+                                            <span class="ico_btn_search_svg"> <svg id="search-btn" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg" style="fill: #03c75a"> <path d="M22.13.5c11.378 0 20.632 9.256 20.632 20.63 0 4.699-1.566 9.155-4.439 12.782l10.164 10.165a2.41 2.41 0 0 1-1.706 4.115 2.412 2.412 0 0 1-1.706-.705L33.31 35.719a2.41 2.41 0 0 1 0-3.41 15.71 15.71 0 0 0 4.628-11.178c0-8.718-7.09-15.808-15.807-15.808-8.718 0-15.808 7.09-15.808 15.808 0 7.15 4.817 13.43 11.714 15.273a2.41 2.41 0 0 1 1.705 2.954 2.41 2.41 0 0 1-2.95 1.705C7.788 38.658 1.5 30.46 1.5 21.131 1.5 9.756 10.756.5 22.13.5zm4.716 34.746a3.483 3.483 0 1 1 0 6.966 3.483 3.483 0 0 1 0-6.966z"></path> </svg> </span>
+                                            <span class="blind">검색</span>
+                                        </button>
+                                    </fieldset>
+                                </form>
+                                <div class="search-box">
+                                    <button class="btn-keyboard" type="button"><span class="blind">입력 도구</span></button>
+                                    <button class="btn-arrow" type="button"><span
+                                            class="blind">자동완성/최근검색어</span></button>
+                                </div>
+                                <div class="search-history-box">
+                                    <div class="search-history-wrap">
+                                        <div class="search-history-layer">
+                                            <div class="history-header">
+                                                <strong class="title">최근검색어</strong>
+                                                <div class="option">
+                                                    <a href="" class="btn-delete">전체삭제</a>
+                                                </div>
+                                            </div>
+                                            <div class="history-container">
+                                                <ul class="history-list">
+                                                    <li class="history-item">
+                                                        <a href="#">철원 맛집</a>
+                                                        <span class="etc">
+                                                            <em class="date">08.03</em>
+                                                            <a href="#" class="btn-item-delete">
+                                                                <i class="ico ico-delete">삭제</i>
+                                                            </a>
+                                                        </span>
+                                                    </li>
+                                                    <li class="history-item">
+                                                        <a href="#">종근씨 서핑</a>
+                                                        <span class="etc">
+                                                            <em class="date">08.03</em>
+                                                            <a href="#" class="btn-item-delete">
+                                                                <i class="ico ico-delete">삭제</i>
+                                                            </a>
+                                                        </span>
+                                                    </li>
+                                                    <li class="history-item">
+                                                        <a href="#">철원 맛집</a>
+                                                        <span class="etc">
+                                                            <em class="date">08.03</em>
+                                                            <a href="#" class="btn-item-delete">
+                                                                <i class="ico ico-delete">삭제</i>
+                                                            </a>
+                                                        </span>
+                                                    </li>
+                                                    <li class="history-item">
+                                                        <a href="#">종근씨 서핑</a>
+                                                        <span class="etc">
+                                                            <em class="date">08.03</em>
+                                                            <a href="#" class="btn-item-delete">
+                                                                <i class="ico ico-delete">삭제</i>
+                                                            </a>
+                                                        </span>
+                                                    </li>
+                                                    <li class="history-item">
+                                                        <a href="#">철원 맛집</a>
+                                                        <span class="etc">
+                                                            <em class="date">08.03</em>
+                                                            <a href="#" class="btn-item-delete">
+                                                                <i class="ico ico-delete">삭제</i>
+                                                            </a>
+                                                        </span>
+                                                    </li>
+                                                    <li class="history-item">
+                                                        <a href="#">종근씨 서핑</a>
+                                                        <span class="etc">
+                                                            <em class="date">08.03</em>
+                                                            <a href="#" class="btn-item-delete">
+                                                                <i class="ico ico-delete">삭제</i>
+                                                            </a>
+                                                        </span>
+                                                    </li>
+                                                    <li class="history-item">
+                                                        <a href="#">철원 맛집</a>
+                                                        <span class="etc">
+                                                            <em class="date">08.03</em>
+                                                            <a href="#" class="btn-item-delete">
+                                                                <i class="ico ico-delete">삭제</i>
+                                                            </a>
+                                                        </span>
+                                                    </li>
+                                                    <li class="history-item">
+                                                        <a href="#">종근씨 서핑</a>
+                                                        <span class="etc">
+                                                            <em class="date">08.03</em>
+                                                            <a href="#" class="btn-item-delete">
+                                                                <i class="ico ico-delete">삭제</i>
+                                                            </a>
+                                                        </span>
+                                                    </li>
+                                                    <li class="history-item">
+                                                        <a href="#">철원 맛집</a>
+                                                        <span class="etc">
+                                                            <em class="date">08.03</em>
+                                                            <a href="#" class="btn-item-delete">
+                                                                <i class="ico ico-delete">삭제</i>
+                                                            </a>
+                                                        </span>
+                                                    </li>
+                                                    <li class="history-item">
+                                                        <a href="#">종근씨 서핑</a>
+                                                        <span class="etc">
+                                                            <em class="date">08.03</em>
+                                                            <a href="#" class="btn-item-delete">
+                                                                <i class="ico ico-delete">삭제</i>
+                                                            </a>
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                                <div class="history-off">
+                                                    <strong>검색어 저장 기능이 꺼져 있습니다.</strong>
+                                                    <span class="desc">설정이 초기화 된다면 <a
+                                                            href="https://help.naver.com/support/alias/search/word/word_29.naver"
+                                                            class="help" target="_blank">도움말</a>을 확인해주세요</span>
+                                                </div>
+                                            </div>
+                                            <div class="history-footer">
+                                                <div class="list-option-area">
+                                                    <a href="#" class="">도움말</a>
+                                                    <a href="#" class="">자동저장 끄기</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="group-shortcut">
+                    <ul class="shortcut-list">
+                        <li class="shortcut-item"><a href="#"><span class="ico-service mail"></span><span class="name">메일</span></a></li>
+                        <li class="shortcut-item"><a href="#"><span class="ico-service cafe"></span><span class="name">카페</span></a></li>
+                        <li class="shortcut-item"><a href="#"><span class="ico-service blog"></span><span class="name">블로그</span></a></li>
+                        <li class="shortcut-item"><a href="#"><span class="ico-service shopping"></span><span class="name">쇼핑</span></a></li>
+                        <li class="shortcut-item"><a href="#"><span class="ico-service news"></span><span class="name">뉴스</span></a></li>
+                        <li class="shortcut-item"><a href="#"><span class="ico-service stock"></span><span class="name">증권</span></a></li>
+                        <li class="shortcut-item"><a href="#"><span class="ico-service real"></span><span class="name">부동산</span></a></li>
+                        <li class="shortcut-item"><a href="#"><span class="ico-service map"></span><span class="name">지도</span></a></li>
+                        <li class="shortcut-item"><a href="#"><span class="ico-service webtoon"></span><span class="name">웹툰</span></a></li>
+                        <li class="shortcut-item"><a href="#"><span class="ico-service chzzk"><img src="https://s.pstatic.net/static/www/mobile/edit/20240112_1095/upload_1705057885416AaxUM.png" width="44" height="44" class="service_img" alt="치지직"></span><span class="name">치지직</span></a></li>
+                        <li class="shortcut-item"><a href="#"><span class="ico-service more"></span><span class="blind">바로가기 더보기</span></a>
+                        </li>
+                    </ul>
+                    <div class="shortcut-all">
+                        <a href="#" target="_blank">전체서비스</a>
+                        <ul class="serveice-list">
+                            <li><a href="#"><span class="ico-service weather">날씨</span></a></li>
+                            <li><a href="#"><span class="ico-service game">네이버게임</span></a></li>
+                            <li><a href="#"><span class="ico-service pay">네이버페이</span></a></li>
+                            <li><a href="#"><span class="ico-service tv">네이버TV</span></a></li>
+                            <li><a href="#"><span class="ico-service book">도서</span></a></li>
+                            <li><a href="#"><span class="ico-service band">밴드</span></a></li>
+                            <li><a href="#"><span class="ico-service dictionary">사전</span></a></li>
+                            <li><a href="#"><span class="ico-service shoplive">쇼핑라이브</span></a></li>
+                            <li><a href="#"><span class="ico-service sport">스포츠</span></a></li>
+                            <li><a href="#"><span class="ico-service serieze">시리즈</span></a></li>
+                            <li><a href="#"><span class="ico-service fiction">웹소설</span></a></li>
+                            <li><a href="#"><span class="ico-service kin">지식in</span></a></li>
+                            <li><a href="#"><span class="ico-service calendar">캘린더</span></a></li>
+                            <li><a href="#"><span class="ico-service bean">해피빈</span></a></li>
+                            <li><a href="#"><span class="ico-service mybox">MYBOX</span></a></li>
+                            <li><a href="#"><span class="ico-service vibe">VIBE</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="util">
+                    <div class="menu-area">
+                        <button id="topAsideButton" type="button" class="btn-menu" aria-haspopup="menu"
+                            aria-expanded="false"><span class="blind">확장 영역</span></button>
+                    </div>
+                    <div class="pay-area">
+                        <a href="https://order.pay.naver.com/home" class="link-pay" target="_blank"><span class="blind">페이
+                                바로가기</span></a>
+                    </div>
+                    <div class="talk-area">
+                        <button type="button" class="btn-talk" aria-haspopup="menu" aria-expanded="false"><span
+                                class="blind">톡</span></button>
+                    </div>
+                    <div class="notify-area">
+                        <button type="button" class="btn-notify" aria-haspopup="menu" aria-expanded="false"><span
+                                class="blind">알림</span></button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main" id="main">
+            <div class="common-inner">
+                <div class="group-left">
+                    <section class="sc-banner">
+                        <div class="banner-inner">
+                            <a href="" class="banner-link">
+                                <img src="https://ssl.pstatic.net/melona/libs/1489/1489930/d5f530d53150e17ac507_20240306142826941.jpg"
+                                    alt="">
+                            </a>
+                        </div>
+                    </section>
+                    <section class="sc-news">
+                        <div class="news-inner">
+                            <div class="news-header">
+                                <ul class="type-list tab">
+                                    <li class=""><a href="#" class="tab-btn stand" role="tab">뉴스스탠드</a></li>
+                                    <li class=""><a href="#" class="tab-btn press" role="tab">언론사편집</a></li>
+                                    <li class=""><a href="#" class="tab-btn enter" role="tab">엔터</a></li>
+                                    <li class=""><a href="#" class="tab-btn sports" role="tab">스포츠<sapn
+                                                class="tag-live">LIVE
+                                            </sapn>
+                                        </a>
+                                    </li>
+                                    <li class=""><a href="#" class="tab-btn economy" role="tab">경제</a></li>
+                                </ul>
+                                <a href="#" class="event-link">
+                                    <img src="assets/images/upload_1708585880722aZITS.png" alt="">
+                                </a>
+                            </div>
+                            <div class="news-sub-header">
+                                <a href="#" class="btn-filter" role="button">전체언론사<i class="ico-arrow"></i></a>
+                                <div class="sub-news">
+                                    <div class="sub-news-box">
+                                        <div class="sub-news-item ellip1">
+                                            <a href="#" class="media">연합뉴스</a>
+                                            <a href="#" class="news-title">외신도 잼버리 293개 단지 효과와 달라 초전도체 9만여대 </a>
+                                        </div>
+                                        <div class="sub-news-item ellip1">
+                                            <a href="#" class="media">어쩌구뉴스</a>
+                                            <a href="#" class="news-title">군산 찾은 이재명 "본분 잊어버린 일꾼들 퇴거해야 마땅"</a>
+                                        </div>
+                                        <div class="sub-news-item ellip1">
+                                            <a href="#" class="media">연합뉴스</a>
+                                            <a href="#" class="news-title">외신도 잼버리 293개 단지 효과와 달라 초전도체 9만여대</a>
+                                        </div>
+                                        <div class="sub-news-item ellip1">
+                                            <a href="#" class="media">연합뉴스</a>
+                                            <a href="#" class="news-title">군산 찾은 이재명 "본분 잊어버린 일꾼들 퇴거해야 마땅"</a>
+                                        </div>
+                                    </div>
+                                    <div class="link-box">
+                                        <a href="#">뉴스스탠드</a>
+                                        <a href="#"><strong>뉴스홈</strong></a>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="#" class="btn-filter" role="option"><strong>구독언론사</strong> 보기</a>
+                                </div>
+                            </div>
+                            <div class="press-area thumb" role="tabpanel">
+                                <div class="press-list">
+                                    <div class="line-wrap">
+                                        <i class="line-to-right1"></i>
+                                        <i class="line-to-right2"></i>
+                                        <i class="line-to-right3"></i>
+                                        <i class="line-to-bottom1"></i>
+                                        <i class="line-to-bottom2"></i>
+                                        <i class="line-to-bottom3"></i>
+                                        <i class="line-to-bottom4"></i>
+                                        <i class="line-to-bottom5"></i>
+                                    </div>
+                                    <div class="press-wrap">
+                                        <div class="press-item"><a href="#"><img
+                                                    src="https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png"
+                                                    alt="뉴데일리" class="news-logo"></a></div>
+                                        <div class="press-item"><a href="#"><img
+                                                    src="https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png"
+                                                    alt="뉴데일리" class="news-logo"></a></div>
+                                        <div class="press-item"><a href="#"><img
+                                                    src="https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png"
+                                                    alt="뉴데일리" class="news-logo"></a></div>
+                                        <div class="press-item"><a href="#"><img
+                                                    src="https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png"
+                                                    alt="뉴데일리" class="news-logo"></a></div>
+                                        <div class="press-item"><a href="#"><img
+                                                    src="https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png"
+                                                    alt="뉴데일리" class="news-logo"></a></div>
+                                        <div class="press-item"><a href="#"><img
+                                                    src="https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png"
+                                                    alt="뉴데일리" class="news-logo"></a></div>
+                                        <div class="press-item"><a href="#"><img
+                                                    src="https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png"
+                                                    alt="뉴데일리" class="news-logo"></a></div>
+                                        <div class="press-item"><a href="#"><img
+                                                    src="https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png"
+                                                    alt="뉴데일리" class="news-logo"></a></div>
+                                        <div class="press-item"><a href="#"><img
+                                                    src="https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png"
+                                                    alt="뉴데일리" class="news-logo"></a></div>
+                                        <div class="press-item"><a href="#"><img
+                                                    src="https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png"
+                                                    alt="뉴데일리" class="news-logo"></a></div>
+                                        <div class="press-item"><a href="#"><img
+                                                    src="https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png"
+                                                    alt="뉴데일리" class="news-logo"></a></div>
+                                        <div class="press-item"><a href="#"><img
+                                                    src="https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png"
+                                                    alt="뉴데일리" class="news-logo"></a></div>
+                                        <div class="press-item"><a href="#"><img
+                                                    src="https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png"
+                                                    alt="뉴데일리" class="news-logo"></a></div>
+                                        <div class="press-item"><a href="#"><img
+                                                    src="https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png"
+                                                    alt="뉴데일리" class="news-logo"></a></div>
+                                        <div class="press-item"><a href="#"><img
+                                                    src="https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png"
+                                                    alt="뉴데일리" class="news-logo"></a></div>
+                                        <div class="press-item"><a href="#"><img
+                                                    src="https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png"
+                                                    alt="뉴데일리" class="news-logo"></a></div>
+                                        <div class="press-item"><a href="#"><img
+                                                    src="https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png"
+                                                    alt="뉴데일리" class="news-logo"></a></div>
+                                        <div class="press-item"><a href="#"><img
+                                                    src="https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png"
+                                                    alt="뉴데일리" class="news-logo"></a></div>
+                                        <div class="press-item"><a href="#"><img
+                                                    src="https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png"
+                                                    alt="뉴데일리" class="news-logo"></a></div>
+                                        <div class="press-item"><a href="#"><img
+                                                    src="https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png"
+                                                    alt="뉴데일리" class="news-logo"></a></div>
+                                        <div class="press-item"><a href="#"><img
+                                                    src="https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png"
+                                                    alt="뉴데일리" class="news-logo"></a></div>
+                                        <div class="press-item"><a href="#"><img
+                                                    src="https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png"
+                                                    alt="뉴데일리" class="news-logo"></a></div>
+                                        <div class="press-item"><a href="#"><img
+                                                    src="https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png"
+                                                    alt="뉴데일리" class="news-logo"></a></div>
+                                        <div class="press-item"><a href="#"><img
+                                                    src="https://s.pstatic.net/static/newsstand/up/2024/0124/nsd95528325.png"
+                                                    alt="뉴데일리" class="news-logo"></a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="press-area list" role="tabpanel">
+                                <div class="select-wrap">
+                                    <div class="select-inner">
+                                        <ul class="field-list">
+                                            <li class="field-item"><a href="#"><span>종합/경제</span></a></li>
+                                            <li class="field-item"><a href="#"><span>방송/통신</span></a></li>
+                                            <li class="field-item"><a href="#"><span>IT</span></a></li>
+                                            <li class="field-item"><a href="#"><span>영자지</span></a></li>
+                                            <li class="field-item"><a href="#"><span>스포츠/연예</span></a></li>
+                                            <li class="field-item"><a href="#"><span>매거진/전문</span></a></li>
+                                            <li class="field-item"><a href="#"><span>지역</span></a></li>
+                                            <li class="field-item"><a href="#"><span>국민일보</span></a></li>
+                                            <li class="field-item"><a href="#"><span>노컷뉴스</span></a></li>
+                                            <li class="field-item"><a href="#"><span>미디어오늘</span></a></li>
+                                            <li class="field-item"><a href="#"><span>블로터</span></a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="status-area">
+                                        <span class="status-txt">구독중 <strong>6</strong></span>
+                                        <a class="btn-follow" href="#" target="_blank" role="button"><span
+                                                class="blind">구독 설정</span></a>
+                                    </div>
+                                </div>
+                                <div class="news-wrap">
+                                    <div class="info-box">
+                                        <a href="#" target="_blank"><img
+                                                src="https://s.pstatic.net/static/newsstand/2020/logo/light/0604/006.png"
+                                                alt="미디어오늘"></a>
+                                        <span class="date">03월 21일 18:20 직접 편집</span>
+                                        <button class="btn-unfollow"><span class="blind">구독취소</span></button>
+                                    </div>
+                                    <div class="news-box">
+                                        <div class="left">
+                                            <a href="#" class="link-img">
+                                                <div class="img-wrap">
+                                                    <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fnewsstand%2F2024%2F0321%2Farticle_img%2Fnew_main%2F9029%2F183141_001.jpg%22&type=nf312_208&service=navermain"
+                                                        alt="예보, SGI서울보증 IPO 재추진 속내는">
+                                                </div>
+                                            </a>
+                                            <a href="#" class="link-name">
+                                                중증환자들 "치료시기 놓쳐 사라져야 멈추겠나"
+                                            </a>
+                                        </div>
+                                        <div class="right">
+                                            <ul class="link-list">
+                                                <li><a href="#" class="link-name ellip1">[이커머스 지각변동②] 국내 온라인몰 2위 ‘알리’…정부
+                                                        ‘전방위
+                                                        압박’ 강화</a></li>
+                                                <li><a href="#" class="link-name ellip1">[이커머스 지각변동②] 국내 온라인몰 2위 ‘알리’…정부
+                                                        ‘전방위
+                                                        압박’ 강화</a></li>
+                                                <li><a href="#" class="link-name ellip1">[이커머스 지각변동②] 국내 온라인몰 2위 ‘알리’…정부
+                                                        ‘전방위
+                                                        압박’ 강화</a></li>
+                                                <li><a href="#" class="link-name ellip1">[이커머스 지각변동②] 국내 온라인몰 2위 ‘알리’…정부
+                                                        ‘전방위
+                                                        압박’ 강화</a></li>
+                                                <li><a href="#" class="link-name ellip1">[이커머스 지각변동②] 국내 온라인몰 2위 ‘알리’…정부
+                                                        ‘전방위
+                                                        압박’ 강화</a></li>
+                                                <li><a href="#" class="link-name ellip1">[이커머스 지각변동②] 국내 온라인몰 2위 ‘알리’…정부
+                                                        ‘전방위
+                                                        압박’ 강화</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-paging paging">
+                                <div class="btn-group">
+                                    <button class="view-list" role="radio"><span class="blind">리스트형</span></button>
+                                    <button class="view-thumb" role="radio"><span class="blind">썸네일형</span></button>
+                                </div>
+                                <button class="btn-prev"><span class="blind">이전 페이지</span></button>
+                                <div class="txt-group">
+                                    <span><strong class="type">언론사</strong> 더보기</span>
+                                    <span class="current">1<span class="blind">현재 페이지</span></span>
+                                    <span class="total">/21<span class="blind">전체 페이지</span></span>
+                                </div>
+                                <button class="btn-next"><span class="blind">다음 페이지</span></button>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="sc-shopping">
+                        <div class="shopping-inner">
+                            <div class="shopping-header">
+                                <ul class="type-list tab">
+                                    <li><a href="#" class="tab-btn" role="tab" aria-selected="true">쇼핑</a></li>
+                                    <li><a href="#" class="tab-btn" role="tab">맨즈</a></li>
+                                    <li><a href="#" class="tab-btn" role="tab">원쁠딜</a></li>
+                                    <li><a href="#" class="tab-btn" role="tab">쇼핑라이브</a></li>
+                                </ul>
+                                <div class="header-paging">
+                                    <div class="paging-small">
+
+                                        <span class="current">1</span>
+                                        <span class="total">/13</span>
+
+                                    </div>
+                                    <button type="button" class="btn-paging btn-prev"><i class="ico-arrow"><span
+                                                class="blind">이전 페이지</span></i></button><button type="button"
+                                        class="btn-paging btn-next"><i class="ico ico-arrow"><span class="blind">다음
+                                                페이지</span></i></button>
+                                </div>
+                            </div>
+
+                            <div class="shopping-area" role="tabpanel">
+                                <div class="shopping-wrap">
+                                    <div class="left">
+                                        <ul class="shopping-list">
+                                            <li class="shopping-item">
+                                                <a href="#" target="_blank" class="link-img">
+                                                    <div class="img-wrap">
+                                                        <img src="https://s.pstatic.net/shopping.phinf/20240315_2/8b53a52a-f076-4966-b3be-ae623ff6459e.jpg?type=f294_378"
+                                                            alt="모두, 각자의 인테리어 오브제">
+                                                    </div>
+                                                </a>
+                                                <a href="#" target="_blank" class="link-name">
+                                                    <div class="txt">삼성 김치냉장고</div>
+                                                    <div class="txt">역대급 특가찬스</div>
+                                                </a>
+                                            </li>
+                                            <li class="shopping-item">
+                                                <a href="#" target="_blank" class="link-img">
+                                                    <div class="img-wrap">
+                                                        <img src="https://s.pstatic.net/shopping.phinf/20240311_2/7a8fe55f-d4da-4c30-b1c0-43bd161a6232.jpg?type=f294_378"
+                                                            alt="모두, 각자의 인테리어 오브제">
+                                                    </div>
+                                                </a>
+                                                <a href="#" target="_blank" class="link-name">
+                                                    <div class="txt">삼성 김치냉장고</div>
+                                                    <div class="txt">역대급 특가찬스</div>
+                                                </a>
+                                            </li>
+                                            <li class="shopping-item">
+                                                <a href="#" target="_blank" class="link-img">
+                                                    <div class="img-wrap">
+                                                        <img src="https://s.pstatic.net/shopping.phinf/20240320_8/bcbb5d10-8c58-43db-972c-66d4dbdbeedd.jpg?type=f294_378"
+                                                            alt="모두, 각자의 인테리어 오브제">
+                                                    </div>
+                                                </a>
+                                                <a href="#" target="_blank" class="link-name">
+                                                    <div class="txt">삼성 김치냉장고</div>
+                                                    <div class="txt">역대급 특가찬스</div>
+                                                </a>
+                                            </li>
+                                            <li class="shopping-item">
+                                                <a href="#" target="_blank" class="link-img">
+                                                    <div class="img-wrap">
+                                                        <img src="https://s.pstatic.net/shopping.phinf/20240315_24/13e9b8ab-fb87-43c7-8910-15d6f7abcb18.jpg?type=f294_378"
+                                                            alt="모두, 각자의 인테리어 오브제">
+                                                    </div>
+                                                </a>
+                                                <a href="#" target="_blank" class="link-name">
+                                                    <div class="txt">삼성 김치냉장고</div>
+                                                    <div class="txt">역대급 특가찬스</div>
+                                                </a>
+                                            </li>
+                                            <li class="shopping-item">
+                                                <a href="#" target="_blank" class="link-img">
+                                                    <div class="img-wrap">
+                                                        <img src="https://s.pstatic.net/shopping.phinf/20240219_19/87d8f633-2016-4097-91ac-92331e54aac4.jpg?type=f294_378"
+                                                            alt="모두, 각자의 인테리어 오브제">
+                                                    </div>
+                                                </a>
+                                                <a href="#" target="_blank" class="link-name">
+                                                    <div class="txt">삼성 김치냉장고</div>
+                                                    <div class="txt">역대급 특가찬스</div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul class="shopping-list">
+                                            <li class="shopping-item">
+                                                <a href="#" target="_blank" class="link-img">
+                                                    <div class="img-wrap">
+                                                        <img src="https://s.pstatic.net/shopping.phinf/20240315_2/8b53a52a-f076-4966-b3be-ae623ff6459e.jpg?type=f294_378"
+                                                            alt="모두, 각자의 인테리어 오브제">
+                                                    </div>
+                                                </a>
+                                                <a href="#" target="_blank" class="link-name">
+                                                    <div class="txt">삼성 김치냉장고</div>
+                                                    <div class="txt">역대급 특가찬스</div>
+                                                </a>
+                                            </li>
+                                            <li class="shopping-item">
+                                                <a href="#" target="_blank" class="link-img">
+                                                    <div class="img-wrap">
+                                                        <img src="https://s.pstatic.net/shopping.phinf/20240315_2/8b53a52a-f076-4966-b3be-ae623ff6459e.jpg?type=f294_378"
+                                                            alt="모두, 각자의 인테리어 오브제">
+                                                    </div>
+                                                </a>
+                                                <a href="#" target="_blank" class="link-name">
+                                                    <div class="txt">삼성 김치냉장고</div>
+                                                    <div class="txt">역대급 특가찬스</div>
+                                                </a>
+                                            </li>
+                                            <li class="shopping-item">
+                                                <a href="#" target="_blank" class="link-img">
+                                                    <div class="img-wrap">
+                                                        <img src="https://s.pstatic.net/shopping.phinf/20240320_8/bcbb5d10-8c58-43db-972c-66d4dbdbeedd.jpg?type=f294_378"
+                                                            alt="모두, 각자의 인테리어 오브제">
+                                                    </div>
+                                                </a>
+                                                <a href="#" target="_blank" class="link-name">
+                                                    <div class="txt">삼성 김치냉장고</div>
+                                                    <div class="txt">역대급 특가찬스</div>
+                                                </a>
+                                            </li>
+                                            <li class="shopping-item">
+                                                <a href="#" target="_blank" class="link-img">
+                                                    <div class="img-wrap">
+                                                        <img src="https://s.pstatic.net/shopping.phinf/20240315_24/13e9b8ab-fb87-43c7-8910-15d6f7abcb18.jpg?type=f294_378"
+                                                            alt="모두, 각자의 인테리어 오브제">
+                                                    </div>
+                                                </a>
+                                                <a href="#" target="_blank" class="link-name">
+                                                    <div class="txt">삼성 김치냉장고</div>
+                                                    <div class="txt">역대급 특가찬스</div>
+                                                </a>
+                                            </li>
+                                            <li class="shopping-item">
+                                                <a href="#" target="_blank" class="link-img">
+                                                    <div class="img-wrap">
+                                                        <img src="https://s.pstatic.net/shopping.phinf/20240219_19/87d8f633-2016-4097-91ac-92331e54aac4.jpg?type=f294_378"
+                                                            alt="모두, 각자의 인테리어 오브제">
+                                                    </div>
+                                                </a>
+                                                <a href="#" target="_blank" class="link-name">
+                                                    <div class="txt">삼성 김치냉장고</div>
+                                                    <div class="txt">역대급 특가찬스</div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="right">
+                                        <div class="mall-shortcut">
+                                            <span class="blind">쇼핑몰 바로가기</span>
+                                            <div class="mall-link-group">
+                                                <a class="link-name" target="_blank"
+                                                    href="https://www.coupang.com/?src=1139997&spec=10799999&addtag=900&ctag=HOME&lptag=AF_NAVER&itime=20240321191822&pageType=HOME&pageValue=HOME&wPcid=15602532190742724167001&wRef=&wTime=20240321191822&redirect=landing&traceid=V0-181-0000000000000000&subid=mallname&mcid=cb3b1ec29b3f4836b8fb013fd6aa4fa0">쿠팡</a>
+                                                <span class="dot"></span>
+                                                <a class="link-name" target="_blank"
+                                                    href="https://www.coupang.com/?src=1139997&spec=10799999&addtag=900&ctag=HOME&lptag=AF_NAVER&itime=20240321191822&pageType=HOME&pageValue=HOME&wPcid=15602532190742724167001&wRef=&wTime=20240321191822&redirect=landing&traceid=V0-181-0000000000000000&subid=mallname&mcid=cb3b1ec29b3f4836b8fb013fd6aa4fa0"><strong>지마켓</strong></a>
+                                                <span class="dot"></span>
+                                                <a class="link-name" target="_blank"
+                                                    href="https://www.coupang.com/?src=1139997&spec=10799999&addtag=900&ctag=HOME&lptag=AF_NAVER&itime=20240321191822&pageType=HOME&pageValue=HOME&wPcid=15602532190742724167001&wRef=&wTime=20240321191822&redirect=landing&traceid=V0-181-0000000000000000&subid=mallname&mcid=cb3b1ec29b3f4836b8fb013fd6aa4fa0">옥션</a>
+                                                <span class="dot"></span>
+                                                <a class="link-name" target="_blank"
+                                                    href="https://www.coupang.com/?src=1139997&spec=10799999&addtag=900&ctag=HOME&lptag=AF_NAVER&itime=20240321191822&pageType=HOME&pageValue=HOME&wPcid=15602532190742724167001&wRef=&wTime=20240321191822&redirect=landing&traceid=V0-181-0000000000000000&subid=mallname&mcid=cb3b1ec29b3f4836b8fb013fd6aa4fa0">11번가</a>
+                                            </div>
+                                            <div class="mall-link-group">
+                                                <a class="link-name" target="_blank"
+                                                    href="https://www.coupang.com/?src=1139997&spec=10799999&addtag=900&ctag=HOME&lptag=AF_NAVER&itime=20240321191822&pageType=HOME&pageValue=HOME&wPcid=15602532190742724167001&wRef=&wTime=20240321191822&redirect=landing&traceid=V0-181-0000000000000000&subid=mallname&mcid=cb3b1ec29b3f4836b8fb013fd6aa4fa0">SSG닷컴</a>
+                                                <span class="dot"></span>
+                                                <a class="link-name" target="_blank"
+                                                    href="https://www.coupang.com/?src=1139997&spec=10799999&addtag=900&ctag=HOME&lptag=AF_NAVER&itime=20240321191822&pageType=HOME&pageValue=HOME&wPcid=15602532190742724167001&wRef=&wTime=20240321191822&redirect=landing&traceid=V0-181-0000000000000000&subid=mallname&mcid=cb3b1ec29b3f4836b8fb013fd6aa4fa0">올리브영</a>
+                                                <span class="dot"></span>
+                                                <a class="link-name" target="_blank"
+                                                    href="https://www.coupang.com/?src=1139997&spec=10799999&addtag=900&ctag=HOME&lptag=AF_NAVER&itime=20240321191822&pageType=HOME&pageValue=HOME&wPcid=15602532190742724167001&wRef=&wTime=20240321191822&redirect=landing&traceid=V0-181-0000000000000000&subid=mallname&mcid=cb3b1ec29b3f4836b8fb013fd6aa4fa0">CJ온스타일</a>
+                                                <span class="dot"></span>
+                                                <a class="link-name" target="_blank"
+                                                    href="https://www.coupang.com/?src=1139997&spec=10799999&addtag=900&ctag=HOME&lptag=AF_NAVER&itime=20240321191822&pageType=HOME&pageValue=HOME&wPcid=15602532190742724167001&wRef=&wTime=20240321191822&redirect=landing&traceid=V0-181-0000000000000000&subid=mallname&mcid=cb3b1ec29b3f4836b8fb013fd6aa4fa0"><strong>위메프</strong></a>
+                                            </div>
+                                            <div class="mall-link-group">
+                                                <a class="link-name" target="_blank"
+                                                    href="https://www.coupang.com/?src=1139997&spec=10799999&addtag=900&ctag=HOME&lptag=AF_NAVER&itime=20240321191822&pageType=HOME&pageValue=HOME&wPcid=15602532190742724167001&wRef=&wTime=20240321191822&redirect=landing&traceid=V0-181-0000000000000000&subid=mallname&mcid=cb3b1ec29b3f4836b8fb013fd6aa4fa0">GS
+                                                    SHOP</a>
+                                                <span class="dot"></span>
+                                                <a class="link-name" target="_blank"
+                                                    href="https://www.coupang.com/?src=1139997&spec=10799999&addtag=900&ctag=HOME&lptag=AF_NAVER&itime=20240321191822&pageType=HOME&pageValue=HOME&wPcid=15602532190742724167001&wRef=&wTime=20240321191822&redirect=landing&traceid=V0-181-0000000000000000&subid=mallname&mcid=cb3b1ec29b3f4836b8fb013fd6aa4fa0">하프클럽</a>
+                                                <span class="dot"></span>
+                                                <a class="link-name" target="_blank"
+                                                    href="https://www.coupang.com/?src=1139997&spec=10799999&addtag=900&ctag=HOME&lptag=AF_NAVER&itime=20240321191822&pageType=HOME&pageValue=HOME&wPcid=15602532190742724167001&wRef=&wTime=20240321191822&redirect=landing&traceid=V0-181-0000000000000000&subid=mallname&mcid=cb3b1ec29b3f4836b8fb013fd6aa4fa0"><strong>패션플러스</strong></a>
+                                            </div>
+                                        </div>
+                                        <div class="mall-quick-menu">
+                                            <ul class="quick-menu-list">
+                                                <li class="quick-menu-item">
+                                                    <a href="#" target="_blank">
+                                                        <div class="menu-thumb home"></div>
+                                                        <div class="menu-text">쇼핑홈</div>
+                                                    </a>
+                                                </li>
+                                                <li class="quick-menu-item">
+                                                    <a href="#" target="_blank">
+                                                        <div class="menu-thumb review"></div>
+                                                        <div class="menu-text">리뷰적립</div>
+                                                    </a>
+                                                </li>
+                                                <li class="quick-menu-item">
+                                                    <a href="#" target="_blank">
+                                                        <div class="menu-thumb order"></div>
+                                                        <div class="menu-text">주문</div>
+                                                    </a>
+                                                </li>
+                                                <li class="quick-menu-item">
+                                                    <a href="#" target="_blank">
+                                                        <div class="menu-thumb cart"></div>
+                                                        <div class="menu-text">장바구니</div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- <a class="mall-ad-link shaking"
+                                        href="https://adcr.shopping.naver.com/adclk.nhn?x=DvN1gta3CXWfos3QvbEyRP%2F%2F%2Fw%3D%3Dsmd8zBqMJQLjellaiFGSaxX%2F38UQVCT4dP8NnFC0WCzvt6yxuE90alRtFYpp%2BuYPqzM2CmU%2FJAmh2ByzkbR3Ae4XpYeG8am3dcLdd%2F2qMblcFEHflST8PdeXPHZVzaBsX%2FHq0zTMbdyNiSXRLs1xoS9Onvexctdh%2FmFk0Uu8EV6B%2F290P%2FcumfhoJBodfswU939dUHeiuib9MKyGKkysDdzmQKv30lpZTVhCDJwgMJFnpTmx37uoe7YQ0gOmBKiWrSq48tiYy0%2Bz07CdXNhLU4fkUUWgs7WOaCCijh%2Fy74DfIANBWlHjJSj9Ua8SRZgR4YQxvtm5fQlpphz1LpemUqUAHGkEZ4K%2F5owRitsDD%2FpzPVzoYvzTF9aVof44%2F7UvLo85AtcOfXl6wq8%2Bh9r5aBqpDv3EoV27HP4g1G6Nei1Yi6pPnmRCt45A1Dgx30LwxnJ2oZqxucvBSNQYEQLCWQ6vAYFF5MdkMHUoHlKbq6ovQ9nV7Isctm9F%2FlhuoX2OT">
+                                        <span class="mall-ad-img left">
+                                            <img src="https://s.pstatic.net/shopping.phinf/20240318_7/72efbf8f-c839-46c6-a971-7dc08cfe644c.jpg"
+                                                alt="신규 회원 21% OFF 추가 혜택까지!">
+                                        </span>
+                                        <div class="mall-img right">
+                                            <span class="front-img">
+                                                <img src="https://s.pstatic.net/shopping.phinf/20240318_13/34a44f39-64fe-4f69-a60f-d4754e409a20.jpg"
+                                                    alt="신규 회원 21% OFF 추가 혜택까지!">
+                                            </span>
+                                            <span class="back-img">
+                                                <img src="" alt="신규 회원 21% OFF 추가 혜택까지!">
+                                            </span>
+                                        </div>
+                                        <div class="mall-ad-text">
+                                            <span class="span point">#롯데헬스케어 #필팟 #이벤트</span>
+                                            <br>
+                                            3/18~24 일주일 필팟 15% 할인
+                                        </div>
+                                    </a>
+                                    <a class="mall-ad-link fade"
+                                        href="https://adcr.shopping.naver.com/adclk.nhn?x=DvN1gta3CXWfos3QvbEyRP%2F%2F%2Fw%3D%3Dsmd8zBqMJQLjellaiFGSaxX%2F38UQVCT4dP8NnFC0WCzvt6yxuE90alRtFYpp%2BuYPqzM2CmU%2FJAmh2ByzkbR3Ae4XpYeG8am3dcLdd%2F2qMblcFEHflST8PdeXPHZVzaBsX%2FHq0zTMbdyNiSXRLs1xoS9Onvexctdh%2FmFk0Uu8EV6B%2F290P%2FcumfhoJBodfswU939dUHeiuib9MKyGKkysDdzmQKv30lpZTVhCDJwgMJFnpTmx37uoe7YQ0gOmBKiWrSq48tiYy0%2Bz07CdXNhLU4fkUUWgs7WOaCCijh%2Fy74DfIANBWlHjJSj9Ua8SRZgR4YQxvtm5fQlpphz1LpemUqUAHGkEZ4K%2F5owRitsDD%2FpzPVzoYvzTF9aVof44%2F7UvLo85AtcOfXl6wq8%2Bh9r5aBqpDv3EoV27HP4g1G6Nei1Yi6pPnmRCt45A1Dgx30LwxnJ2oZqxucvBSNQYEQLCWQ6vAYFF5MdkMHUoHlKbq6ovQ9nV7Isctm9F%2FlhuoX2OT">
+                                        <span class="mall-ad-img left">
+                                            <img src="https://s.pstatic.net/shopping.phinf/20240319_20/7bc027f9-761e-48e3-a3a6-d5bee8e6269c.jpg"
+                                                alt="신규 회원 21% OFF 추가 혜택까지!">
+                                        </span>
+                                        <div class="mall-ad-img right">
+                                            <span class="front-img"><img
+                                                    src="https://s.pstatic.net/shopping.phinf/20240318_15/77955844-48e6-47ed-b95c-f322776de090.jpg"
+                                                    alt="3/18~24 일주일 필팟 15% 할인"></span>
+                                            <span class="back-img"><img
+                                                    src="https://s.pstatic.net/shopping.phinf/20240318_8/f0e6d667-9d37-4e55-9ca7-87e5bb47b74f.jpg"
+                                                    alt="3/18~24 일주일 필팟 15% 할인"></span>
+                                        </div>
+                                        <div class="mall-ad-text">
+                                            <span class="span point">#롯데헬스케어 #필팟 #이벤트</span>
+                                            <br>
+                                            3/18~24 일주일 필팟 15% 할인
+                                        </div>
+                                    </a> -->
+                                        <a class="mall-ad-link default"
+                                            href="https://adcr.shopping.naver.com/adclk.nhn?x=DvN1gta3CXWfos3QvbEyRP%2F%2F%2Fw%3D%3Dsmd8zBqMJQLjellaiFGSaxX%2F38UQVCT4dP8NnFC0WCzvt6yxuE90alRtFYpp%2BuYPqzM2CmU%2FJAmh2ByzkbR3Ae4XpYeG8am3dcLdd%2F2qMblcFEHflST8PdeXPHZVzaBsX%2FHq0zTMbdyNiSXRLs1xoS9Onvexctdh%2FmFk0Uu8EV6B%2F290P%2FcumfhoJBodfswU939dUHeiuib9MKyGKkysDdzmQKv30lpZTVhCDJwgMJFnpTmx37uoe7YQ0gOmBKiWrSq48tiYy0%2Bz07CdXNhLU4fkUUWgs7WOaCCijh%2Fy74DfIANBWlHjJSj9Ua8SRZgR4YQxvtm5fQlpphz1LpemUqUAHGkEZ4K%2F5owRitsDD%2FpzPVzoYvzTF9aVof44%2F7UvLo85AtcOfXl6wq8%2Bh9r5aBqpDv3EoV27HP4g1G6Nei1Yi6pPnmRCt45A1Dgx30LwxnJ2oZqxucvBSNQYEQLCWQ6vAYFF5MdkMHUoHlKbq6ovQ9nV7Isctm9F%2FlhuoX2OT">
+                                            <span class="mall-ad-img">
+                                                <img src="https://s.pstatic.net/shopping.phinf/20240318_0/34c64dac-9e66-49a8-8777-bd42dcbbd534.jpg"
+                                                    alt="넉넉한 수납공간과 가벼운 무게">
+                                            </span>
+                                            <div class="mall-ad-text">
+                                                넉넉한 수납공간과 가벼운 무게
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="shopping-sub-header">
+                                <div class="sub-wrap">
+                                    <span class="title">오늘의 혜택</span>
+                                    <div class="shop-list">
+                                        <a href="#" class="shop-item">
+                                            <span class="shop-logo">
+                                                <img src="https://s.pstatic.net/shopping.phinf/20230524_6/dfbbf224-73a7-416c-bf0b-9f63a6cff5b9.jpg"
+                                                    alt="11번가">
+                                            </span>
+                                            <span class="shop-text"><em>9,00원</em> 무료배송 숍! 할인에 무료배송 혜택까지!</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="shopping-paging paging">
+                                <button class="btn-prev"><span class="blind">이전 페이지</span></button>
+                                <div class="txt-group">
+                                    <span><strong class="type">쇼핑아이템</strong>더보기</span>
+                                    <span class="current">1<span class="blind">현재 페이지</span></span>
+                                    <span class="totla">/13<span class="blind">전체 페이지</span></span>
+                                </div>
+                                <button class="btn-next"><span class="blind">다음 페이지</span></button>
+                                <span class="tag-ad">AD</span>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="sc-feed">
+
+                        <div class="feed-header">
+                            <ul class="type-list tab">
+                                <li><a href="#" class="tab-btn" role="tab" aria-selected="true">추천<em>・</em>구독</a></li>
+                                <li><a href="#" class="tab-btn" role="tab">자동차</a></li>
+                                <li><a href="#" class="tab-btn" role="tab">웹툰</a></li>
+                                <li><a href="#" class="tab-btn" role="tab">패션뷰티</a></li>
+                                <li><a href="#" class="tab-btn" role="tab">레시피</a></li>
+                                <li><a href="#" class="tab-btn" role="tab">리빙</a></li>
+                                <li><a href="#" class="tab-btn" role="tab">책방</a></li>
+                                <li><a href="#" class="tab-btn" role="tab">지식+</a></li>
+                                <li><a href="#" class="tab-btn" role="tab">건강</a></li>
+                                <li><a href="#" class="tab-btn" role="tab">게임</a></li>
+                            </ul>
+                        </div>
+                        <div class="feed-sub-header">
+                            <ul class="theme-list">
+                                <li class="theme-item"><a class="link default" href="#" role="tab"
+                                        aria-selected="true">전체</a></li>
+                                <li class="theme-item"><a class="link default" href="#" role="tab"
+                                        aria-selected="false">인기</a></li>
+                                <li class="theme-item"><a class="link" href="#" role="tab" aria-selected="false">동물</a>
+                                </li>
+                                <li class="theme-item"><a class="link" href="#" role="tab" aria-selected="false">여행</a>
+                                </li>
+                                <li class="theme-item"><a class="link" href="#" role="tab"
+                                        aria-selected="false">연애결혼</a></li>
+                                <li class="theme-item"><a class="link" href="#" role="tab" aria-selected="false">영화</a>
+                                </li>
+                                <li class="theme-item"><a class="link" href="#" role="tab" aria-selected="false">육아</a>
+                                </li>
+                            </ul>
+                            <a class="link-follow" href="#" target="_blank">구독홈</a>
+                        </div>
+                        <!-- 추천 구독 -->
+                        <div class="feed-area" role="tabpanel">
+                            <div class="feed-box four-column">
+                                <ul class="four-column-list">
+                                    <li class="four-column-item">
+                                        <a class="link"
+                                            href="https://in.naver.com/pma0012/contents/internal/673479223787072">
+                                            <div class="link-thumb">
+                                                <span class="img-wrap">
+                                                    <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fdiscovercrop-phinf.pstatic.net%2F%2FMjAyNDAzMThfNDUg%2FMDAxNzEwNzMzNDA4Njk1.H0DurzAdTlG1ZKM-28tV0BNCCWQYCF2nrzmHbuMlTeAg.J9g3QaMfPprdHhDHbo0tQOz3V_BVSKMz8yCmwQPo0U0g.JPEG%2Fimage_750x420.jpg%22&type=nf365_240&service=navermain"
+                                                        alt="류쥰열한소희하">
+                                                </span>
+                                            </div>
+                                            <div class="link-info">
+                                                <span class="link-title ellip2">
+                                                    한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                </span>
+                                                <div class="source-box">
+                                                    <div class="source-wrap">
+                                                        <span class="img-wrap"><img
+                                                                src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fhappybean-phinf.pstatic.net%2F20240207_39%2F1707285760412L9zWT_JPEG%2F%25A5%25E2CI.jpg%22&type=nf40_40&service=navermain"
+                                                                alt="프롬한라"></span><span class="name">프롬한라</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="four-column-item">
+                                        <a class="link"
+                                            href="https://in.naver.com/pma0012/contents/internal/673479223787072">
+                                            <div class="link-thumb">
+                                                <span class="img-wrap">
+                                                    <img src="https://naverpa-phinf.pstatic.net/MjAyNDAxMTFfMzcg/MDAxNzA0OTU2MzQzMDcy.pvrXqix6IfcZ-jolJJ6hebTJ5p16R08qxiROWeTgPPMg.xJJF3cZvf-3JDh34wRRR8dMHmNyd3m1CHIDQOV7pTUgg.PNG/240105_%EC%A0%9D%EC%8B%9C%EB%AF%B9%EC%8A%A4_%EC%8A%88%EC%A6%88_GFA_PC_2_170495634306013045669786268051277.png"
+                                                        alt="류쥰열한소희하">
+                                                </span>
+                                            </div>
+                                            <div class="link-info">
+                                                <span class="link-title ellip2">
+                                                    한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                </span>
+                                                <div class="source-box">
+                                                    <div class="source-wrap">
+                                                        <span class="img-wrap"><img
+                                                                src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fhappybean-phinf.pstatic.net%2F20240207_39%2F1707285760412L9zWT_JPEG%2F%25A5%25E2CI.jpg%22&type=nf40_40&service=navermain"
+                                                                alt="프롬한라"></span><span class="name">프롬한라</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="four-column-item">
+                                        <a class="link"
+                                            href="https://in.naver.com/pma0012/contents/internal/673479223787072">
+                                            <div class="link-thumb">
+                                                <span class="img-wrap">
+                                                    <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fdiscovercrop-phinf.pstatic.net%2F%2FMjAyNDAzMThfNDUg%2FMDAxNzEwNzMzNDA4Njk1.H0DurzAdTlG1ZKM-28tV0BNCCWQYCF2nrzmHbuMlTeAg.J9g3QaMfPprdHhDHbo0tQOz3V_BVSKMz8yCmwQPo0U0g.JPEG%2Fimage_750x420.jpg%22&type=nf365_240&service=navermain"
+                                                        alt="류쥰열한소희하">
+                                                </span>
+                                            </div>
+                                            <div class="link-info">
+                                                <span class="link-title ellip2">
+                                                    한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                </span>
+                                                <div class="source-box">
+                                                    <div class="source-wrap">
+                                                        <span class="img-wrap"><img
+                                                                src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fhappybean-phinf.pstatic.net%2F20240207_39%2F1707285760412L9zWT_JPEG%2F%25A5%25E2CI.jpg%22&type=nf40_40&service=navermain"
+                                                                alt="프롬한라"></span><span class="name">프롬한라</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="four-column-item">
+                                        <a class="link"
+                                            href="https://in.naver.com/pma0012/contents/internal/673479223787072">
+                                            <div class="link-thumb">
+                                                <span class="img-wrap">
+                                                    <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fdiscovercrop-phinf.pstatic.net%2F%2FMjAyNDAzMThfNDUg%2FMDAxNzEwNzMzNDA4Njk1.H0DurzAdTlG1ZKM-28tV0BNCCWQYCF2nrzmHbuMlTeAg.J9g3QaMfPprdHhDHbo0tQOz3V_BVSKMz8yCmwQPo0U0g.JPEG%2Fimage_750x420.jpg%22&type=nf365_240&service=navermain"
+                                                        alt="류쥰열한소희하">
+                                                </span>
+                                            </div>
+                                            <div class="link-info">
+                                                <span class="link-title ellip2">
+                                                    한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                </span>
+                                                <div class="source-box">
+                                                    <div class="source-wrap">
+                                                        <span class="img-wrap"><img
+                                                                src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fhappybean-phinf.pstatic.net%2F20240207_39%2F1707285760412L9zWT_JPEG%2F%25A5%25E2CI.jpg%22&type=nf40_40&service=navermain"
+                                                                alt="프롬한라"></span><span class="name">프롬한라</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="four-column-item">
+                                        <a class="link"
+                                            href="https://in.naver.com/pma0012/contents/internal/673479223787072">
+                                            <div class="link-thumb">
+                                                <span class="img-wrap">
+                                                    <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fdiscovercrop-phinf.pstatic.net%2F%2FMjAyNDAzMThfNDUg%2FMDAxNzEwNzMzNDA4Njk1.H0DurzAdTlG1ZKM-28tV0BNCCWQYCF2nrzmHbuMlTeAg.J9g3QaMfPprdHhDHbo0tQOz3V_BVSKMz8yCmwQPo0U0g.JPEG%2Fimage_750x420.jpg%22&type=nf365_240&service=navermain"
+                                                        alt="류쥰열한소희하">
+                                                </span>
+                                            </div>
+                                            <div class="link-info">
+                                                <span class="link-title ellip2">
+                                                    한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                </span>
+                                                <div class="source-box">
+                                                    <div class="source-wrap">
+                                                        <span class="img-wrap"><img
+                                                                src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fhappybean-phinf.pstatic.net%2F20240207_39%2F1707285760412L9zWT_JPEG%2F%25A5%25E2CI.jpg%22&type=nf40_40&service=navermain"
+                                                                alt="프롬한라"></span><span class="name">프롬한라</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="four-column-item">
+                                        <a class="link"
+                                            href="https://in.naver.com/pma0012/contents/internal/673479223787072">
+                                            <div class="link-thumb">
+                                                <span class="img-wrap">
+                                                    <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fdiscovercrop-phinf.pstatic.net%2F%2FMjAyNDAzMThfNDUg%2FMDAxNzEwNzMzNDA4Njk1.H0DurzAdTlG1ZKM-28tV0BNCCWQYCF2nrzmHbuMlTeAg.J9g3QaMfPprdHhDHbo0tQOz3V_BVSKMz8yCmwQPo0U0g.JPEG%2Fimage_750x420.jpg%22&type=nf365_240&service=navermain"
+                                                        alt="류쥰열한소희하">
+                                                </span>
+                                            </div>
+                                            <div class="link-info">
+                                                <span class="link-title ellip2">
+                                                    한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                </span>
+                                                <div class="source-box">
+                                                    <div class="source-wrap">
+                                                        <span class="img-wrap"><img
+                                                                src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fhappybean-phinf.pstatic.net%2F20240207_39%2F1707285760412L9zWT_JPEG%2F%25A5%25E2CI.jpg%22&type=nf40_40&service=navermain"
+                                                                alt="프롬한라"></span><span class="name">프롬한라</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="four-column-item">
+                                        <a class="link"
+                                            href="https://in.naver.com/pma0012/contents/internal/673479223787072">
+                                            <div class="link-thumb">
+                                                <span class="img-wrap">
+                                                    <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fdiscovercrop-phinf.pstatic.net%2F%2FMjAyNDAzMThfNDUg%2FMDAxNzEwNzMzNDA4Njk1.H0DurzAdTlG1ZKM-28tV0BNCCWQYCF2nrzmHbuMlTeAg.J9g3QaMfPprdHhDHbo0tQOz3V_BVSKMz8yCmwQPo0U0g.JPEG%2Fimage_750x420.jpg%22&type=nf365_240&service=navermain"
+                                                        alt="류쥰열한소희하">
+                                                </span>
+                                            </div>
+                                            <div class="link-info">
+                                                <span class="link-title ellip2">
+                                                    한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                </span>
+                                                <div class="source-box">
+                                                    <div class="source-wrap">
+                                                        <span class="img-wrap"><img
+                                                                src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fhappybean-phinf.pstatic.net%2F20240207_39%2F1707285760412L9zWT_JPEG%2F%25A5%25E2CI.jpg%22&type=nf40_40&service=navermain"
+                                                                alt="프롬한라"></span><span class="name">프롬한라</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="four-column-item">
+                                        <a class="link"
+                                            href="https://in.naver.com/pma0012/contents/internal/673479223787072">
+                                            <div class="link-thumb">
+                                                <span class="img-wrap">
+                                                    <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fdiscovercrop-phinf.pstatic.net%2F%2FMjAyNDAzMThfNDUg%2FMDAxNzEwNzMzNDA4Njk1.H0DurzAdTlG1ZKM-28tV0BNCCWQYCF2nrzmHbuMlTeAg.J9g3QaMfPprdHhDHbo0tQOz3V_BVSKMz8yCmwQPo0U0g.JPEG%2Fimage_750x420.jpg%22&type=nf365_240&service=navermain"
+                                                        alt="류쥰열한소희하">
+                                                </span>
+                                            </div>
+                                            <div class="link-info">
+                                                <span class="link-title ellip2">
+                                                    한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                </span>
+                                                <div class="source-box">
+                                                    <div class="source-wrap">
+                                                        <span class="img-wrap"><img
+                                                                src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fhappybean-phinf.pstatic.net%2F20240207_39%2F1707285760412L9zWT_JPEG%2F%25A5%25E2CI.jpg%22&type=nf40_40&service=navermain"
+                                                                alt="프롬한라"></span><span class="name">프롬한라</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="four-column-item">
+                                        <a class="link"
+                                            href="https://in.naver.com/pma0012/contents/internal/673479223787072">
+                                            <div class="link-thumb">
+                                                <span class="img-wrap">
+                                                    <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fdiscovercrop-phinf.pstatic.net%2F%2FMjAyNDAzMThfNDUg%2FMDAxNzEwNzMzNDA4Njk1.H0DurzAdTlG1ZKM-28tV0BNCCWQYCF2nrzmHbuMlTeAg.J9g3QaMfPprdHhDHbo0tQOz3V_BVSKMz8yCmwQPo0U0g.JPEG%2Fimage_750x420.jpg%22&type=nf365_240&service=navermain"
+                                                        alt="류쥰열한소희하">
+                                                </span>
+                                            </div>
+                                            <div class="link-info">
+                                                <span class="link-title ellip2">
+                                                    한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                </span>
+                                                <div class="source-box">
+                                                    <div class="source-wrap">
+                                                        <span class="img-wrap"><img
+                                                                src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fhappybean-phinf.pstatic.net%2F20240207_39%2F1707285760412L9zWT_JPEG%2F%25A5%25E2CI.jpg%22&type=nf40_40&service=navermain"
+                                                                alt="프롬한라"></span><span class="name">프롬한라</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="four-column-item">
+                                        <a class="link"
+                                            href="https://in.naver.com/pma0012/contents/internal/673479223787072">
+                                            <div class="link-thumb">
+                                                <span class="img-wrap">
+                                                    <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fdiscovercrop-phinf.pstatic.net%2F%2FMjAyNDAzMThfNDUg%2FMDAxNzEwNzMzNDA4Njk1.H0DurzAdTlG1ZKM-28tV0BNCCWQYCF2nrzmHbuMlTeAg.J9g3QaMfPprdHhDHbo0tQOz3V_BVSKMz8yCmwQPo0U0g.JPEG%2Fimage_750x420.jpg%22&type=nf365_240&service=navermain"
+                                                        alt="류쥰열한소희하">
+                                                </span>
+                                            </div>
+                                            <div class="link-info">
+                                                <span class="link-title ellip2">
+                                                    한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                </span>
+                                                <div class="source-box">
+                                                    <div class="source-wrap">
+                                                        <span class="img-wrap"><img
+                                                                src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fhappybean-phinf.pstatic.net%2F20240207_39%2F1707285760412L9zWT_JPEG%2F%25A5%25E2CI.jpg%22&type=nf40_40&service=navermain"
+                                                                alt="프롬한라"></span><span class="name">프롬한라</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="four-column-item">
+                                        <a class="link"
+                                            href="https://in.naver.com/pma0012/contents/internal/673479223787072">
+                                            <div class="link-thumb">
+                                                <span class="img-wrap">
+                                                    <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fdiscovercrop-phinf.pstatic.net%2F%2FMjAyNDAzMThfNDUg%2FMDAxNzEwNzMzNDA4Njk1.H0DurzAdTlG1ZKM-28tV0BNCCWQYCF2nrzmHbuMlTeAg.J9g3QaMfPprdHhDHbo0tQOz3V_BVSKMz8yCmwQPo0U0g.JPEG%2Fimage_750x420.jpg%22&type=nf365_240&service=navermain"
+                                                        alt="류쥰열한소희하">
+                                                </span>
+                                            </div>
+                                            <div class="link-info">
+                                                <span class="link-title ellip2">
+                                                    한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                </span>
+                                                <div class="source-box">
+                                                    <div class="source-wrap">
+                                                        <span class="img-wrap"><img
+                                                                src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fhappybean-phinf.pstatic.net%2F20240207_39%2F1707285760412L9zWT_JPEG%2F%25A5%25E2CI.jpg%22&type=nf40_40&service=navermain"
+                                                                alt="프롬한라"></span><span class="name">프롬한라</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="four-column-item">
+                                        <a class="link"
+                                            href="https://in.naver.com/pma0012/contents/internal/673479223787072">
+                                            <div class="link-thumb">
+                                                <span class="img-wrap">
+                                                    <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fdiscovercrop-phinf.pstatic.net%2F%2FMjAyNDAzMThfNDUg%2FMDAxNzEwNzMzNDA4Njk1.H0DurzAdTlG1ZKM-28tV0BNCCWQYCF2nrzmHbuMlTeAg.J9g3QaMfPprdHhDHbo0tQOz3V_BVSKMz8yCmwQPo0U0g.JPEG%2Fimage_750x420.jpg%22&type=nf365_240&service=navermain"
+                                                        alt="류쥰열한소희하">
+                                                </span>
+                                            </div>
+                                            <div class="link-info">
+                                                <span class="link-title ellip2">
+                                                    한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                </span>
+                                                <div class="source-box">
+                                                    <div class="source-wrap">
+                                                        <span class="img-wrap"><img
+                                                                src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fhappybean-phinf.pstatic.net%2F20240207_39%2F1707285760412L9zWT_JPEG%2F%25A5%25E2CI.jpg%22&type=nf40_40&service=navermain"
+                                                                alt="프롬한라"></span><span class="name">프롬한라</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="feed-box six-column column-slide">
+                                <div class="content-title">
+                                    <strong>매일 찾는 짧은 즐거움</strong>
+                                </div>
+                                <div class="slide-wrap">
+                                    <ul class="six-column-list followSlide">
+                                        <li class="six-column-item">
+                                            <a class="link" href="#">
+                                                <div class="link-thumb">
+                                                    <span class="img-wrap">
+                                                        <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Ftvcast.phinf%2F20240315_14%2FGoBEN_1710479597627nTBkj_JPEG%2F509c9ff1-e28a-11ee-88d4-80615f0bcf50_03.jpg%22&type=f216_324&service=navermain"
+                                                            alt="류쥰열한소희하">
+                                                    </span>
+                                                </div>
+                                                <div class="link-info">
+                                                    <span class="link-title ellip2">
+                                                        한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                    </span>
+                                                    <div class="source-box">
+                                                        <div class="source-wrap">
+                                                            <span class="name">프롬한라</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="six-column-item">
+                                            <a class="link" href="#">
+                                                <div class="link-thumb">
+                                                    <span class="img-wrap">
+                                                        <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Ftvcast.phinf%2F20240318_204%2FBYCgG_1710750848290QdTVX_JPEG%2Feb3ebff6-e501-11ee-b282-80615f0bcc8e_06.jpg%22&type=f216_324&service=navermain"
+                                                            alt="류쥰열한소희하">
+                                                    </span>
+                                                </div>
+                                                <div class="link-info">
+                                                    <span class="link-title ellip2">
+                                                        한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                    </span>
+                                                    <div class="source-box">
+                                                        <div class="source-wrap">
+                                                            <span class="name">프롬한라</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="six-column-item">
+                                            <a class="link" href="#">
+                                                <div class="link-thumb">
+                                                    <span class="img-wrap">
+                                                        <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Ftvcast.phinf%2F20240318_204%2FBYCgG_1710750848290QdTVX_JPEG%2Feb3ebff6-e501-11ee-b282-80615f0bcc8e_06.jpg%22&type=f216_324&service=navermain"
+                                                            alt="류쥰열한소희하">
+                                                    </span>
+                                                </div>
+                                                <div class="link-info">
+                                                    <span class="link-title ellip2">
+                                                        한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                    </span>
+                                                    <div class="source-box">
+                                                        <div class="source-wrap">
+                                                            <span class="name">프롬한라</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="six-column-item">
+                                            <a class="link" href="#">
+                                                <div class="link-thumb">
+                                                    <span class="img-wrap">
+                                                        <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Ftvcast.phinf%2F20240318_204%2FBYCgG_1710750848290QdTVX_JPEG%2Feb3ebff6-e501-11ee-b282-80615f0bcc8e_06.jpg%22&type=f216_324&service=navermain"
+                                                            alt="류쥰열한소희하">
+                                                    </span>
+                                                </div>
+                                                <div class="link-info">
+                                                    <span class="link-title ellip2">
+                                                        한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                    </span>
+                                                    <div class="source-box">
+                                                        <div class="source-wrap">
+                                                            <span class="name">프롬한라</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="six-column-item">
+                                            <a class="link" href="#">
+                                                <div class="link-thumb">
+                                                    <span class="img-wrap">
+                                                        <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Ftvcast.phinf%2F20240318_204%2FBYCgG_1710750848290QdTVX_JPEG%2Feb3ebff6-e501-11ee-b282-80615f0bcc8e_06.jpg%22&type=f216_324&service=navermain"
+                                                            alt="류쥰열한소희하">
+                                                    </span>
+                                                </div>
+                                                <div class="link-info">
+                                                    <span class="link-title ellip2">
+                                                        한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                    </span>
+                                                    <div class="source-box">
+                                                        <div class="source-wrap">
+                                                            <span class="name">프롬한라</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="six-column-item">
+                                            <a class="link" href="#">
+                                                <div class="link-thumb">
+                                                    <span class="img-wrap">
+                                                        <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Ftvcast.phinf%2F20240318_204%2FBYCgG_1710750848290QdTVX_JPEG%2Feb3ebff6-e501-11ee-b282-80615f0bcc8e_06.jpg%22&type=f216_324&service=navermain"
+                                                            alt="류쥰열한소희하">
+                                                    </span>
+                                                </div>
+                                                <div class="link-info">
+                                                    <span class="link-title ellip2">
+                                                        한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                    </span>
+                                                    <div class="source-box">
+                                                        <div class="source-wrap">
+                                                            <span class="name">프롬한라</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="six-column-item">
+                                            <a class="link" href="#">
+                                                <div class="link-thumb">
+                                                    <span class="img-wrap">
+                                                        <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Ftvcast.phinf%2F20240319_219%2F8AVaq_1710851086578NMuRw_JPEG%2F11C8951B-C38A-4D13-8C37-FDADD78F52BC.jpg%22&type=f216_324&service=navermain"
+                                                            alt="류쥰열한소희하">
+                                                    </span>
+                                                </div>
+                                                <div class="link-info">
+                                                    <span class="link-title ellip2">
+                                                        한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                    </span>
+                                                    <div class="source-box">
+                                                        <div class="source-wrap">
+                                                            <span class="name">프롬한라</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="six-column-item">
+                                            <a class="link" href="#">
+                                                <div class="link-thumb">
+                                                    <span class="img-wrap">
+                                                        <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fmoment-phinf.pstatic.net%2FMjAyNDAzMjFfNjgg%2FMDAxNzExMDAyMjEwNTQ1.ze7fOvBHs2V8d4DkothqaV1qqOA1ZUrf_kdJ_n4yxKog.oqWewPERp3l75_MjvTAqdFuQSED9vw-FqfQVYcaM6rYg.JPEG%2FAA37BDF9-23C1-471E-AB30-3DB3A9779891.jpg%22&type=f216_324&service=navermain"
+                                                            alt="류쥰열한소희하">
+                                                    </span>
+                                                </div>
+                                                <div class="link-info">
+                                                    <span class="link-title ellip2">
+                                                        한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                    </span>
+                                                    <div class="source-box">
+                                                        <div class="source-wrap">
+                                                            <span class="name">프롬한라</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="six-column-item">
+                                            <a class="link" href="#">
+                                                <div class="link-thumb">
+                                                    <span class="img-wrap">
+                                                        <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fmoment-phinf.pstatic.net%2FMjAyNDAzMjFfNjgg%2FMDAxNzExMDAyMjEwNTQ1.ze7fOvBHs2V8d4DkothqaV1qqOA1ZUrf_kdJ_n4yxKog.oqWewPERp3l75_MjvTAqdFuQSED9vw-FqfQVYcaM6rYg.JPEG%2FAA37BDF9-23C1-471E-AB30-3DB3A9779891.jpg%22&type=f216_324&service=navermain"
+                                                            alt="류쥰열한소희하">
+                                                    </span>
+                                                </div>
+                                                <div class="link-info">
+                                                    <span class="link-title ellip2">
+                                                        한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                    </span>
+                                                    <div class="source-box">
+                                                        <div class="source-wrap">
+                                                            <span class="name">프롬한라</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="six-column-item">
+                                            <a class="link" href="#">
+                                                <div class="link-thumb">
+                                                    <span class="img-wrap">
+                                                        <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fmoment-phinf.pstatic.net%2FMjAyNDAzMjFfNjgg%2FMDAxNzExMDAyMjEwNTQ1.ze7fOvBHs2V8d4DkothqaV1qqOA1ZUrf_kdJ_n4yxKog.oqWewPERp3l75_MjvTAqdFuQSED9vw-FqfQVYcaM6rYg.JPEG%2FAA37BDF9-23C1-471E-AB30-3DB3A9779891.jpg%22&type=f216_324&service=navermain"
+                                                            alt="류쥰열한소희하">
+                                                    </span>
+                                                </div>
+                                                <div class="link-info">
+                                                    <span class="link-title ellip2">
+                                                        한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                    </span>
+                                                    <div class="source-box">
+                                                        <div class="source-wrap">
+                                                            <span class="name">프롬한라</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="six-column-item">
+                                            <a class="link" href="#">
+                                                <div class="link-thumb">
+                                                    <span class="img-wrap">
+                                                        <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fmoment-phinf.pstatic.net%2FMjAyNDAzMjFfNjgg%2FMDAxNzExMDAyMjEwNTQ1.ze7fOvBHs2V8d4DkothqaV1qqOA1ZUrf_kdJ_n4yxKog.oqWewPERp3l75_MjvTAqdFuQSED9vw-FqfQVYcaM6rYg.JPEG%2FAA37BDF9-23C1-471E-AB30-3DB3A9779891.jpg%22&type=f216_324&service=navermain"
+                                                            alt="류쥰열한소희하">
+                                                    </span>
+                                                </div>
+                                                <div class="link-info">
+                                                    <span class="link-title ellip2">
+                                                        한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                    </span>
+                                                    <div class="source-box">
+                                                        <div class="source-wrap">
+                                                            <span class="name">프롬한라</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="six-column-item">
+                                            <a class="link" href="#">
+                                                <div class="link-thumb">
+                                                    <span class="img-wrap">
+                                                        <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fmoment-phinf.pstatic.net%2FMjAyNDAzMjFfNjgg%2FMDAxNzExMDAyMjEwNTQ1.ze7fOvBHs2V8d4DkothqaV1qqOA1ZUrf_kdJ_n4yxKog.oqWewPERp3l75_MjvTAqdFuQSED9vw-FqfQVYcaM6rYg.JPEG%2FAA37BDF9-23C1-471E-AB30-3DB3A9779891.jpg%22&type=f216_324&service=navermain"
+                                                            alt="류쥰열한소희하">
+                                                    </span>
+                                                </div>
+                                                <div class="link-info">
+                                                    <span class="link-title ellip2">
+                                                        한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                    </span>
+                                                    <div class="source-box">
+                                                        <div class="source-wrap">
+                                                            <span class="name">프롬한라</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="btn-slick-prev"><span class="blind">이전 페이지</span></button>
+                                <button class="btn-slick-next"><span class="blind">다음 페이지</span></button>
+                            </div>
+                        </div>
+                        <!--// 추천 구독 -->
+                        <!-- 자동차 -->
+                        <div class="feed-area" role="tabpanel">
+                            <div class="feed-box three-column column-slide">
+                                <div class="slide-wrap">
+                                    <ul class="three-column-list carSlide">
+                                        <li class="three-column-item">
+                                            <a class="link" target="_blank"
+                                                href="https://in.naver.com/pma0012/contents/internal/673479223787072">
+                                                <div class="img-thumb">
+                                                    <span class="img-wrap">
+                                                        <img src="https://s.pstatic.net/static/www/mobile/edit/20240119_1095/upload_1705655134064hPNzp.jpg"
+                                                            alt="류쥰열한소희하">
+                                                    </span>
+                                                </div>
+                                                <div class="link-info">
+                                                    <div class="company">네이버 자동차<span class="tag-ad">AD</span></div>
+                                                    <strong class="link-title ellip1">BYD 시승신청</strong>
+                                                    <div class="text-box ellip2">
+                                                        시승 가능한 모델을 버튼으로 확인하세요!
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="three-column-item">
+                                            <a class="link" target="_blank"
+                                                href="https://in.naver.com/pma0012/contents/internal/673479223787072">
+                                                <div class="img-thumb">
+                                                    <span class="img-wrap">
+                                                        <img src="https://s.pstatic.net/static/www/mobile/edit/20240119_1095/upload_1705655134064hPNzp.jpg"
+                                                            alt="류쥰열한소희하">
+                                                    </span>
+                                                </div>
+                                                <div class="link-info">
+                                                    <div class="company">네이버 자동차<span class="tag-ad">AD</span></div>
+                                                    <strong class="link-title ellip1">BYD 시승신청</strong>
+                                                    <div class="text-box ellip2">
+                                                        시승 가능한 모델을 버튼으로 확인하세요!
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="three-column-item">
+                                            <a class="link" target="_blank"
+                                                href="https://in.naver.com/pma0012/contents/internal/673479223787072">
+                                                <div class="img-thumb">
+                                                    <span class="img-wrap">
+                                                        <img src="https://s.pstatic.net/static/www/mobile/edit/20240119_1095/upload_1705655134064hPNzp.jpg"
+                                                            alt="류쥰열한소희하">
+                                                    </span>
+                                                </div>
+                                                <div class="link-info">
+                                                    <div class="company">네이버 자동차<span class="tag-ad">AD</span></div>
+                                                    <strong class="link-title ellip1">BYD 시승신청</strong>
+                                                    <div class="text-box ellip2">
+                                                        시승 가능한 모델을 버튼으로 확인하세요!
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="three-column-item">
+                                            <a class="link" target="_blank"
+                                                href="https://in.naver.com/pma0012/contents/internal/673479223787072">
+                                                <div class="img-thumb">
+                                                    <span class="img-wrap">
+                                                        <img src="https://s.pstatic.net/static/www/mobile/edit/20240119_1095/upload_1705655134064hPNzp.jpg"
+                                                            alt="류쥰열한소희하">
+                                                    </span>
+                                                </div>
+                                                <div class="link-info">
+                                                    <div class="company">네이버 자동차<span class="tag-ad">AD</span></div>
+                                                    <strong class="link-title ellip1">BYD 시승신청</strong>
+                                                    <div class="text-box ellip2">
+                                                        시승 가능한 모델을 버튼으로 확인하세요!
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="three-column-item">
+                                            <a class="link" target="_blank"
+                                                href="https://in.naver.com/pma0012/contents/internal/673479223787072">
+                                                <div class="img-thumb">
+                                                    <span class="img-wrap">
+                                                        <img src="https://s.pstatic.net/static/www/mobile/edit/20240119_1095/upload_1705655134064hPNzp.jpg"
+                                                            alt="류쥰열한소희하">
+                                                    </span>
+                                                </div>
+                                                <div class="link-info">
+                                                    <div class="company">네이버 자동차<span class="tag-ad">AD</span></div>
+                                                    <strong class="link-title ellip1">BYD 시승신청</strong>
+                                                    <div class="text-box ellip2">
+                                                        시승 가능한 모델을 버튼으로 확인하세요!
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="three-column-item">
+                                            <a class="link" target="_blank"
+                                                href="https://in.naver.com/pma0012/contents/internal/673479223787072">
+                                                <div class="img-thumb">
+                                                    <span class="img-wrap">
+                                                        <img src="https://s.pstatic.net/static/www/mobile/edit/20240119_1095/upload_1705655134064hPNzp.jpg"
+                                                            alt="류쥰열한소희하">
+                                                    </span>
+                                                </div>
+                                                <div class="link-info">
+                                                    <div class="company">네이버 자동차<span class="tag-ad">AD</span></div>
+                                                    <strong class="link-title ellip1">BYD 시승신청</strong>
+                                                    <div class="text-box ellip2">
+                                                        시승 가능한 모델을 버튼으로 확인하세요!
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <button class="btn-slick-prev"><span class="blind">이전 페이지</span></button>
+                                    <button class="btn-slick-next"><span class="blind">다음 페이지</span></button>
+                                </div>
+                            </div>
+                            <div class="feed-box two-column">
+                                <ul class="two-column-list">
+                                    <li class="two-column-item">
+                                        <a class="link" href="#">
+                                            <div class="link-thumb">
+                                                <span class="thumb-box">
+                                                    <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F20240321_1095%2Fupload_1711010754028F4xwm.jpg%22&type=ff364_236&service=navermain"
+                                                        alt="류쥰열한소희하">
+                                                </span>
+                                            </div>
+                                            <div class="link-info">
+                                                <span class="link-title ellip2">
+                                                    한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                </span>
+                                                <div class="source-box">
+                                                    <div class="source-wrap">
+                                                        <span class="img-wrap">
+                                                            <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F20240320_1095%2Fupload_1710893575582G4Bv7.jpg%22&type=ff364_236&service=navermain"
+                                                                alt="로드테스트"></span><span class="name">로드테스트</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="two-column-item">
+                                        <a class="link" href="#">
+                                            <div class="link-thumb">
+                                                <span class="thumb-box">
+                                                    <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Fstatic%2Fwww%2Fmobile%2Fedit%2F20230823_1095%2Fupload_1692749851483AXbNS.jpg%22&type=ff364_236&service=navermain"
+                                                        alt="류쥰열한소희하">
+                                                </span>
+                                            </div>
+                                            <div class="link-info">
+                                                <span class="link-title ellip2">
+                                                    한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                </span>
+                                                <div class="source-box">
+                                                    <div class="source-wrap">
+                                                        <span class="img-wrap">
+                                                            <img src="https://s.pstatic.net/tvcast.phinf/20240318_93/4CsVd_1710748182358L0ph6_JPEG/1710748174911.jpg"
+                                                                alt="로드테스트"></span><span class="name">로드테스트</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="two-column-item">
+                                        <a class="link" href="#">
+                                            <div class="link-thumb">
+                                                <span class="thumb-box">
+                                                    <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Ftvcast.phinf%2F20240318_204%2FBYCgG_1710750848290QdTVX_JPEG%2Feb3ebff6-e501-11ee-b282-80615f0bcc8e_06.jpg%22&type=f216_324&service=navermain"
+                                                        alt="류쥰열한소희하">
+                                                </span>
+                                            </div>
+                                            <div class="link-info">
+                                                <span class="link-title ellip2">
+                                                    한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                </span>
+                                                <div class="source-box">
+                                                    <div class="source-wrap">
+                                                        <span class="img-wrap">
+                                                            <img src="https://s.pstatic.net/tvcast.phinf/20240318_93/4CsVd_1710748182358L0ph6_JPEG/1710748174911.jpg"
+                                                                alt="로드테스트"></span><span class="name">로드테스트</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="two-column-item">
+                                        <a class="link" href="#">
+                                            <div class="link-thumb">
+                                                <span class="thumb-box">
+                                                    <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Ftvcast.phinf%2F20240318_204%2FBYCgG_1710750848290QdTVX_JPEG%2Feb3ebff6-e501-11ee-b282-80615f0bcc8e_06.jpg%22&type=f216_324&service=navermain"
+                                                        alt="류쥰열한소희하">
+                                                </span>
+                                            </div>
+                                            <div class="link-info">
+                                                <span class="link-title ellip2">
+                                                    한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                </span>
+                                                <div class="source-box">
+                                                    <div class="source-wrap">
+                                                        <span class="img-wrap">
+                                                            <img src="https://s.pstatic.net/tvcast.phinf/20240318_93/4CsVd_1710748182358L0ph6_JPEG/1710748174911.jpg"
+                                                                alt="로드테스트"></span><span class="name">로드테스트</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="two-column-item">
+                                        <a class="link" href="#">
+                                            <div class="link-thumb">
+                                                <span class="thumb-box">
+                                                    <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Ftvcast.phinf%2F20240318_204%2FBYCgG_1710750848290QdTVX_JPEG%2Feb3ebff6-e501-11ee-b282-80615f0bcc8e_06.jpg%22&type=f216_324&service=navermain"
+                                                        alt="류쥰열한소희하">
+                                                </span>
+                                            </div>
+                                            <div class="link-info">
+                                                <span class="link-title ellip2">
+                                                    전통, 혁신, 그리고 미학의 공존 - 이탈리아의 자동차 제조사들
+                                                </span>
+                                                <div class="source-box">
+                                                    <div class="source-wrap">
+                                                        <span class="img-wrap">
+                                                            <img src="https://s.pstatic.net/tvcast.phinf/20240318_93/4CsVd_1710748182358L0ph6_JPEG/1710748174911.jpg"
+                                                                alt="로드테스트"></span><span class="name">로드테스트</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="two-column-item">
+                                        <a class="link" href="#">
+                                            <div class="link-thumb">
+                                                <span class="thumb-box">
+                                                    <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Ftvcast.phinf%2F20240318_204%2FBYCgG_1710750848290QdTVX_JPEG%2Feb3ebff6-e501-11ee-b282-80615f0bcc8e_06.jpg%22&type=f216_324&service=navermain"
+                                                        alt="류쥰열한소희하">
+                                                </span>
+                                            </div>
+                                            <div class="link-info">
+                                                <span class="link-title ellip2">
+                                                    "최고의 여행 동반자" 폭스바겐 골프 TDI 시승기...와인딩 즐기는 법을 알려주는 차
+                                                </span>
+                                                <div class="source-box">
+                                                    <div class="source-wrap">
+                                                        <span class="img-wrap">
+                                                            <img src="https://s.pstatic.net/tvcast.phinf/20240318_93/4CsVd_1710748182358L0ph6_JPEG/1710748174911.jpg"
+                                                                alt="로드테스트"></span><span class="name">로드테스트</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="two-column-item">
+                                        <a class="link" href="#">
+                                            <div class="link-thumb">
+                                                <span class="thumb-box">
+                                                    <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Ftvcast.phinf%2F20240318_204%2FBYCgG_1710750848290QdTVX_JPEG%2Feb3ebff6-e501-11ee-b282-80615f0bcc8e_06.jpg%22&type=f216_324&service=navermain"
+                                                        alt="류쥰열한소희하">
+                                                </span>
+                                            </div>
+                                            <div class="link-info">
+                                                <span class="link-title ellip2">
+                                                    전통, 혁신, 그리고 미학의 공존 - 이탈리아의 자동차 제조사들
+                                                </span>
+                                                <div class="source-box">
+                                                    <div class="source-wrap">
+                                                        <span class="img-wrap">
+                                                            <img src="https://s.pstatic.net/tvcast.phinf/20240318_93/4CsVd_1710748182358L0ph6_JPEG/1710748174911.jpg"
+                                                                alt="로드테스트"></span><span class="name">로드테스트</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="two-column-item">
+                                        <a class="link" href="#">
+                                            <div class="link-thumb">
+                                                <span class="thumb-box">
+                                                    <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Ftvcast.phinf%2F20240318_204%2FBYCgG_1710750848290QdTVX_JPEG%2Feb3ebff6-e501-11ee-b282-80615f0bcc8e_06.jpg%22&type=f216_324&service=navermain"
+                                                        alt="류쥰열한소희하">
+                                                </span>
+                                            </div>
+                                            <div class="link-info">
+                                                <span class="link-title ellip2">
+                                                    한소희 류준열 하와이 5만원대 애착 가방 젤리캣 무지개가방
+                                                </span>
+                                                <div class="source-box">
+                                                    <div class="source-wrap">
+                                                        <span class="img-wrap">
+                                                            <img src="https://s.pstatic.net/tvcast.phinf/20240318_93/4CsVd_1710748182358L0ph6_JPEG/1710748174911.jpg"
+                                                                alt="로드테스트"></span><span class="name">로드테스트</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--// 자동차 -->
+
+                        <div class="feed-more">
+                            <button type="button" class="btn-more">펼쳐보기<i class="ico-plus"></i></button>
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="group-right">
+                    <section class="sc-account">
+                        <div class="account-info">
+                            <div class="info-wrap">
+                                <div class="thumb-wrap">
+                                    <a class="thumb" href="#">
+                                        <span class="thumb-img">
+                                            <img src="https://phinf.pstatic.net/contact/20240218_288/1708263037325orF2x_JPEG/DSC05799.JPG?type=f130_130"
+                                                alt="uu">
+                                        </span>
+                                        <span class="thumb-setting">
+                                            <span class="blind">프로필 설정</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="user-wrap">
+                                    <div class="id"><a class="link-name" href="#"><span
+                                                class="user-name">수르수르만수르</span>님</a><a class="link-security"
+                                            href="#">네이버ID</a><a class="btn-security" href="#"><span class="blind">로그인
+                                                보호
+                                                설정</span></a></div>
+                                    <div class="email">sudkd242@naver.com</div>
+                                    <div class="util">
+                                        <a href="#"><span class="membership"><span class="blind">네이버 플러스
+                                                    멤버십</span></span></a><a
+                                            href="https://nid.naver.com/membership/join">시작하기</a>
+                                        <a href="#">쪽지 <span class="count">0</span></a>
+                                        <a href="#"><i class="ico-bean"></i>해피빈</a>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn-logout">로그아웃</button>
+                            </div>
+                        </div>
+                        <div class="account-menu">
+                            <div class="menu-wrap">
+                                <div class="slide-wrap menuSlide">
+                                    <ul class="menu-list">
+                                        <li class="menu-item">
+                                            <a class="menu-link" href="#" role="tab">
+                                                <span class="menu-text">메일</span>
+                                                <span class="new-count">14</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a class="menu-link" href="#" role="tab">
+                                                <span class="menu-text">카페</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a class="menu-link" href="#" role="tab">
+                                                <span class="menu-text">블로그</span>
+                                                <span class="new-count">21</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a class="menu-link" href="#" role="tab">
+                                                <span class="menu-text">페이</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <ul class="menu-list second">
+                                        <li class="menu-item">
+                                            <a class="menu-link" href="#" role="tab">
+                                                <span class="menu-text">MYBOX</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a class="menu-link" href="#" role="tab">
+                                                <span class="menu-text">포스트</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-item menu-setting">
+                                            <a class="btn-setting setting-link" href="#" role="tab">
+                                                <span class="menu-text">설정</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <button class="btn-slick-prev"><span class="blind">이전 페이지</span></button>
+                                <button class="btn-slick-next"><span class="blind">다음 페이지</span></button>
+                            </div>
+                        </div>
+                        <div class="account-menu-service"></div>
+                    </section>
+                    <section class="sc-ad">
+                        <div class="ad-inner">
+                            <div class="ad-box">
+                                <a class="ad-link" href="#">
+                                    <img src="https://ssl.pstatic.net/melona/libs/1483/1483660/be3550a7566893c864b7_20240315135851778.jpg"
+                                        alt="[광고]굿네이버스 앞으로 단 3년, 한 아이와 지금 만나주세요">
+                                </a>
+                                <div class="ad-mark">
+                                    <button type="button" class="btn-adClose"><span class="blind">AD, 광고
+                                            닫기</span></button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="sc-weather widget">
+                        <div class="weather-inner">
+                            <div class="widget-header">
+                                <a href="https://weather.naver.com/" class="header-title" target="_blank">날씨</a>
+                                <a href="https://weather.naver.com/compare/09260101" class="btn-weather"
+                                    target="_blank">예보 비교</a>
+                                <span class="location">서울시 행복동</span>
+                            </div>
+                            <div class="widget-cont">
+                                <div class="left">
+                                    <a class="link-temp" href="#">
+                                        <div class="weather">
+                                            <div class="ico-weather wb1_2"><span class="blind">맑음</span></div>
+                                            <div class="temp-wrap">
+                                                6.9°
+                                                <div class="status-txt">맑음</div>
+                                            </div>
+                                        </div>
+                                        <div class="temp-txt">
+                                            <span class="low">0°</span><span class="high">11°</span>
+                                        </div>
+                                    </a>
+                                    <a class="link-dust" href="https://weather.naver.com/air/09260101?cpName=KMA">
+                                        <span class="dust-item">미세<span class="good">좋음</span></span>
+                                        <span class="dust-item">초미세<span class="good">좋음</span></span>
+                                    </a>
+                                </div>
+                                <div class="right">
+                                    <a class="link" href="#">
+                                        <div class="graph"><img src="assets/images/graph.png" alt=""></div>
+                                        <ul class="weather-list">
+                                            <li class="weather-item">
+                                                <div class="time">23시</div>
+                                                <div class="ico-weather ws1_6"><span class="blind">구름없음</span></div>
+                                                <div class="temp">7°</div>
+                                            </li>
+                                            <li class="weather-item">
+                                                <div class="time">1</div>
+                                                <div class="ico-weather ws1_7"><span class="blind">흐림</span></div>
+                                                <div class="temp">5°</div>
+                                            </li>
+                                            <li class="weather-item">
+                                                <div class="time">3</div>
+                                                <div class="ico-weather ws1_7"><span class="blind">흐림</span></div>
+                                                <div class="temp">5°</div>
+                                            </li>
+                                            <li class="weather-item">
+                                                <div class="time">5</div>
+                                                <div class="ico-weather ws1_6"><span class="blind">구름없음</span></div>
+                                                <div class="temp">4°</div>
+                                            </li>
+                                            <li class="weather-item">
+                                                <div class="time">7</div>
+                                                <div class="ico-weather ws1_5"><span class="blind">구름많음</span></div>
+                                                <div class="temp">5°</div>
+                                            </li>
+                                        </ul>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="sc-stock widget">
+                        <div class="stock-inner">
+                            <div class="widget-header">
+                                <a href="ttps://finance.naver.com/" class="header-title" target="_blank">증시</a>
+                                <button type="button" class="btn-tip" target="_blank"><span class="blind">정보
+                                        더보기</span></button>
+                                <div class="tip-box">
+                                    로그인 시 관심 종목의 주가를 확인할 수 있습니다.
+                                    <br>
+                                    로그아웃 시 인기 검색 종목이 제공됩니다.
+                                    <button type="button" class="btn-tipClose"><span class="blind">닫기</span></button>
+                                </div>
+                                <div class="update-date">
+                                    03.21. 23:47<button type="button" class="btn-update"><span class="blind">증시
+                                            새로고침</span></button>
+                                </div>
+
+                            </div>
+                            <div class="widget-cont">
+                                <div class="left">
+                                    <div class="stock-type-wrap">
+                                        <div class="stock-type stockSlide">
+                                            <div class="type-item">
+                                                <a href="#">
+                                                    <div class="name">다우존스</div>
+                                                    <div class="price">1,331.50</div>
+                                                    <div class="diff up"><i class="ico-up"><span
+                                                                class="blind">상승</span></i>305.47<span>+1.45%</span>
+                                                    </div>
+                                                    <div class="graph"><img src="assets/images/FX_USDKRW_naverpc_l.png"
+                                                            alt="다우존스">
+                                                    </div>
+
+                                                </a>
+                                            </div>
+                                            <div class="type-item">
+                                                <a href="#">
+                                                    <div class="name">환율 USD</div>
+                                                    <div class="price">1,331.50</div>
+                                                    <div class="diff down"><i class="ico-down"><span
+                                                                class="blind">하락</span></i>305.47<span>-0.45%</span>
+                                                    </div>
+                                                    <div class="graph"><img
+                                                            src="https://ssl.pstatic.net/imgfinance/chart/mobile/marketindex/month3/FX_USDKRW_naverpc_l.png"
+                                                            alt="환율 USD">
+                                                    </div>
+                                                    <p>3개월차트</p>
+                                                </a>
+                                            </div>
+                                            <div class="type-item">
+                                                <a href="#">
+                                                    <div class="name">나스닥</div>
+                                                    <div class="price">16,473.51</div>
+                                                    <div class="diff up"><i class="ico-up"><span
+                                                                class="blind">상승</span></i>305.47<span>+1.45%</span>
+                                                    </div>
+                                                    <div class="graph"><img
+                                                            src="https://ssl.pstatic.net/imgfinance/chart/mobile/world/mini/.IXIC_naverpc_l.png"
+                                                            alt="나스닥">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <ul class="stock-list">
+                                        <li class="stock-item">
+                                            <a class="stock-link" href="#">
+                                                <span class="stock-name">차은우</span>
+                                                <span class="stock-price diff"><i class="ico-up"><span
+                                                            class="blind">상승</span></i>62,700</span>
+                                            </a>
+                                        </li>
+                                        <li class="stock-item">
+                                            <a class="stock-link" href="#">
+                                                <span class="stock-name">아세아</span>
+                                                <span class="stock-price diff"><i class="ico-down"><span
+                                                            class="blind">하락</span></i>162,700</span>
+                                            </a>
+                                        </li>
+                                        <li class="stock-item">
+                                            <a class="stock-link" href="#">
+                                                <span class="stock-name">대우부품</span>
+                                                <span class="stock-price diff"><i class="ico-up"><span
+                                                            class="blind">상승</span></i>62,700</span>
+                                            </a>
+                                        </li>
+                                        <li class="stock-item">
+                                            <a class="stock-link link-more" href="#">
+                                                관심종목 더보기
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <a class="banner-box" href="#">
+                        <img src="https://s.pstatic.net/static/www/mobile/edit/20240319_1095/upload_1710827176619xEyrh.png"
+                            alt="포인트보장">
+                    </a>
+                    <section class="sc-board">
+                        <div class="board-inner">
+                            <div class="title">위젯보드</div>
+                            <div class="board-wrap">
+                                <div class="widget widget-calendar">
+                                    <div class="left">
+                                        <a class="title" href="#">캘린더</a>
+                                        <div class="today-info">
+                                            <a href="#" class="date">1.22<span class="day">금</span></a>
+                                            <a href="#" class="btn-schedule">
+                                                <ul class="schedule-list">
+                                                    <li class="schedule-item">
+                                                        <span class="item-box">
+                                                            <span class="bar"><span class="blind">일정 있음</span></span>
+                                                            잘자기
+                                                        </span>
+                                                    </li>
+                                                    <li class="schedule-item">
+                                                        <span class="item-box">
+                                                            <span class="bar"><span class="blind">일정 있음</span></span>
+                                                            잘먹기
+                                                        </span>
+                                                    </li>
+                                                    <li class="schedule-item other-count">
+                                                        <span class="item-box">
+                                                            <span class="bar"><span class="blind">추가일정</span></span>
+                                                            +2개의 일정
+                                                        </span>
+                                                    </li>
+                                                </ul>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="right">
+
+                                        <button type="button" class="btn-lock" aria-expanded="false"><i
+                                                class="ico-lock"><span class="blind">캘린더
+                                                    잠금</span></i></button>
+                                        <div class="tooltip-box">
+                                            캘린더 잠그기
+                                        </div>
+
+                                        <a class="calendar" href="#">
+                                            <table>
+                                                <caption class="blind">캘린더</caption>
+                                                <thead>
+                                                    <tr>
+                                                        <th class="sunday">일</th>
+                                                        <th>월</th>
+                                                        <th>화</th>
+                                                        <th>수</th>
+                                                        <th>목</th>
+                                                        <th>금</th>
+                                                        <th>토</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td class="dimmed sunday">25</td>
+                                                        <td class="dimmed">26</td>
+                                                        <td class="dimmed">27</td>
+                                                        <td class="dimmed">28</td>
+                                                        <td class="dimmed today">29</td>
+                                                        <td class="holiday">1</td>
+                                                        <td>2</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="dimmed sunday">3</td>
+                                                        <td>4</td>
+                                                        <td>5</td>
+                                                        <td>6</td>
+                                                        <td>7</td>
+                                                        <td>8</td>
+                                                        <td>9</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="dimmed sunday">10</td>
+                                                        <td>11</td>
+                                                        <td>12</td>
+                                                        <td>13</td>
+                                                        <td>14</td>
+                                                        <td>15</td>
+                                                        <td>16</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="dimmed sunday">17</td>
+                                                        <td>18</td>
+                                                        <td>19</td>
+                                                        <td>20</td>
+                                                        <td>21</td>
+                                                        <td>22</td>
+                                                        <td>23</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="multiple"><span class="sunday">24</span><span
+                                                                class="dimmed">31</span></td>
+                                                        <td>25</td>
+                                                        <td>26</td>
+                                                        <td>27</td>
+                                                        <td>28</td>
+                                                        <td>29</td>
+                                                        <td>30</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="widget widget-memo">
+                                    <div class="memo-header">
+                                        <p class="title">메모</p>
+                                        <div class="btn-area">
+                                            <button type="button" class="btn-lock"><i class="ico-lock"><span
+                                                        class="blind">메모
+                                                        잠금</span></i></button>
+                                        </div>
+                                        <div class="tooltip-box">
+                                            메모 잠그기
+                                        </div>
+                                    </div>
+                                    <div class="memo-info">
+                                        <ul class="memo-list">
+                                            <li class="memo-item">
+                                                <a class="link" href="#"><span class="memo-text"><i
+                                                            class="ico-star-off"></i>여름에
+                                                        태어난</span><span class="memo-date">24.01.23</span></a>
+                                            </li>
+                                            <li class="memo-item">
+                                                <a class="link" href="#"><span class="memo-text"><i
+                                                            class="ico-star-off"></i>여름에
+                                                        태어난</span><span class="memo-date">24.01.23</span></a>
+                                            </li>
+                                            <li class="memo-item">
+                                                <a class="link" href="#"><span class="memo-text"><i
+                                                            class="ico-star-on"></i>여름에
+                                                        태어난</span><span class="memo-date">24.01.23</span></a>
+                                            </li>
+                                        </ul>
+                                        <a href="https://m.memo.naver.com/write" class="btn-write" aria-label="새 메모 쓰기">
+                                            <span class="write-text">새 메모 쓰기</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="widget-papago widget-group">
+                                    <a class="papago-link" href="#">
+                                        <div class="papago-wrap">
+                                            <i class="ico-papago"><span class="blind">papago</span></i>
+                                            <button class="btn-papago">번역하기</button>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="widget-dictionary widget-group">
+                                    <div class="dictionary-wrap">
+                                        <a class="title link" href="#">영어사전</a>
+                                        <a class="sentence" href="#">
+                                            <div class="eng">Do we have to leave a tip?</div>
+                                            <div class="kor">팁을 남겨야 하나?</div>
+                                        </a>
+                                    </div>
+                                    <a href="#" class="btn-search" aria-label="단어 검색하기">
+                                        <span class="search-word">단어 검색하기</span>
+                                    </a>
+                                </div>
+                                <div class="widget widget-vibe">
+                                    <div class="vibe-top">
+                                        <i class="ico-vibe"><span class="blind">vibe</span></i>
+                                        <div class="vibe-title">고요한 휴식😌</div>
+                                        <button type="button" class="btn-refresh">다른 추천 보기</button>
+                                    </div>
+                                    <div class="vibe-info">
+                                        <ul class="vibe-list">
+                                            <li class="vibe-item">
+                                                <a class="link-thumb" href="#">
+                                                    <div class="thumb-box">
+                                                        <span class="vibe-img">
+                                                            <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Faudio.phinf%2F20211201_169%2F1638333013066PmlSB_PNG%2F%25B1%25D9%25BD%25C9_%25B0%25C6%25C1%25A4%25C0%25BA_%25B8%25F0%25B5%25CE_%25B9%25D9%25B4%25D9%25BF%25A1_%25C8%25EA%25B7%25C1%25BA%25B8%25B3%25BB%25B0%25ED_03%25BD%25E6%25B3%25D7%25C0%25CF%25C5%25AC%25B8%25B3%25C0%25CC%25B9%25CC%25C1%25F6.png%22&type=f216_324&service=navermain"
+                                                                alt="">
+                                                        </span>
+                                                        <i class="btn-play"><span class="blind">재생</span></i>
+                                                    </div>
+                                                </a>
+                                                <a class="link-title">
+                                                    <span class="desc ellip2">근심 걱정은 모두 바다에 흘려보내고</span>
+                                                </a>
+                                            </li>
+                                            <li class="vibe-item">
+                                                <a class="link-thumb" href="#">
+                                                    <div class="thumb-box">
+                                                        <span class="vibe-img">
+                                                            <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Faudio.phinf%2F20210629_157%2F1624945447985w0Ta0_PNG%2FVibe_SC_055%25C1%25A6%25C1%25D6%25BF%25EB%25B8%25D3%25B8%25AE%25C7%25D8%25BE%25C8%25C0%25C7%25C6%25C4%25B5%25B5_04%25BD%25E6%25B3%25D7%25C0%25CF.png%22&type=f216_324&service=navermain"
+                                                                alt="">
+                                                        </span>
+                                                        <i class="btn-play"><span class="blind">재생</span></i>
+                                                    </div>
+                                                </a>
+                                                <a class="link-title">
+                                                    <span class="desc ellip2">한 발짝씩 내딛는 고요한 바다</span>
+                                                </a>
+                                            </li>
+                                            <li class="vibe-item">
+                                                <a class="link-thumb" href="#">
+                                                    <div class="thumb-box">
+                                                        <span class="vibe-img">
+                                                            <img src="https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Faudio.phinf%2F20211220_49%2F1639962158494paqxF_PNG%2F07%25B3%25D1%25BD%25C7%25B4%25EB%25B4%25C2%25B9%25D9%25B4%25D9_04%25BD%25E6%25B3%25D7%25C0%25CF.png%22&type=f216_324&service=navermain"
+                                                                alt="">
+                                                        </span>
+                                                        <i class="btn-play"><span class="blind">재생</span></i>
+                                                    </div>
+                                                </a>
+                                                <a class="link-title">
+                                                    <span class="desc ellip2">넘실대는 바다</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="link-mobile" href="#">
+                                <span class="link-title">
+                                    <strong>모바일 네이버 메인 </strong>열기
+                                </span>
+                            </a>
+                        </div>
+                    </section>
+                    <div class="banner-box whale">
+                        <a class="whale-link" href="#">
+                            <span class="banner-thumb">
+                                <img src="https://s.pstatic.net/static/www/mobile/edit/20231109_1095/upload_1699514358075UmvS8.png"
+                                    alt="">
+                            </span>
+                            <div class="banner-desc">
+                                <div class="text1">나만의 스마트한 브라우저, 웨일</div>
+                                <div class="text2">인터넷을 여는 가장 스마트한 방법</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="group-util">
+                <a class="btn-scrollTop" href="#" role="button"><span class="blind">최상단으로 이동</span></a>
+                <a class="btn-setting" href="#" role="button"><span class="blind">홈 환경 설정</span></a>
+                <div class="setting-area">
+                    <div class="setting-group">
+                        <div class="setting-title">글자 크기</div>
+                        <div class="setting-option">
+                            <button class="btn-small" type="button" role="radio">
+                                <span class="font-box">
+                                    <span class="font">
+                                        <span class="kor">가</span><span class="eng">Aa</span>
+                                    </span>
+                                </span>
+                                <span class="text">축소</span>
+                            </button>
+                            <button class="btn-basic" type="button" role="radio">
+                                <span class="font-box">
+                                    <span class="font">
+                                        <span class="kor">가</span><span class="eng">Aa</span>
+                                    </span>
+                                    <i class="SettingView-module__ico_option___yrKcu"></i>
+                                </span>
+                                <span class="text">기본</span>
+                            </button>
+                            <button class="btn-big" type="button" role="radio">
+                                <div class="font-box">
+                                    <span class="font">
+                                        <span class="kor">가</span><span class="eng">Aa</span>
+                                    </span>
+                                </div>
+                                <span class="text">확대</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="setting-group">
+                        <div class="setting-title">화면 스타일
+                            <button type="button" class="btn-tip" target="_blank"><span class="blind"></span>정보
+                                더보기</button>
+                            <div class="tip-box">
+                                PC 메인의 화면 스타일을 선택할 수 있습니다.
+                                <br>
+                                '기기 설정‘을 선택하면 사용 중인 기기의 설정에 따라 라이트/다크 모드로 자동 변경됩니다.
+                                <button type="button" class="btn-tipClose"><span class="blind">닫기</span></button>
+                            </div>
+                        </div>
+                        <div class="setting-option">
+                            <button class="btn-light" type="button" role="radio">
+                                <span class="style-box">
+                                    <span class="bar1"></span>
+                                    <span class="bar2"></span>
+                                    <span class="bar3"></span>
+                                </span>
+                                <span class="text">라이트 모드</span>
+                            </button>
+                            <button class="btn-dark" type="button" role="radio">
+                                <span class="style-box">
+                                    <span class="bar1"></span>
+                                    <span class="bar2"></span>
+                                    <span class="bar3"></span>
+                                </span>
+                                <span class="text">다크 모드</span>
+                            </button>
+                            <button class="btn-device" type="button" role="radio">
+                                <span class="style-box">
+                                    <span class="bar1"></span>
+                                    <span class="bar2"></span>
+                                    <span class="bar3"></span>
+                                </span>
+                                <span class="text">기기 설정</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="setting-group">
+                        <div class="setting-title">더 많은 기능</div>
+                        <a class="btn-install"
+                            href="https://apps.apple.com/kr/app/%EB%84%A4%EC%9D%B4%EB%B2%84-naver/id393499958"
+                            target="_blank">
+                            <i class="ico-naver"></i>
+                            <strong>PC 네이버앱</strong>설치하기
+                            <span class="tag-mac">Mac전용</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-inner">
+                <div class="banner-area">
+                    <div class="banner-item">
+                        <div class="item-wrap">
+                            <a class="link" href="#">
+                                <div class="thumb-box">
+                                    <img src="https://ssl.pstatic.net/melona/libs/1489/1489827/fb8334006cdb74ea13ac_20240313105014214.png"
+                                        alt="광고">
+                                </div>
+                                <div class="cont-box">
+                                    <strong class="sub-title">강한소상공인 성장지원</strong>
+                                    <strong class="main-title">스스로 커머스 스쿨 모집 중</strong>
+                                    <div class="ellip1 desc">1:1 맞춤 교육부터</div>
+                                    <div class="ellip1">최대 5천만원 사업화자금 지원</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="banner-item">
+                        <div class="item-wrap">
+                            <a class="link" href="#">
+                                <div class="thumb-box">
+                                    <img src="https://ssl.pstatic.net/melona/libs/1489/1489827/fb8334006cdb74ea13ac_20240313105014214.png"
+                                        alt="광고">
+                                </div>
+                                <div class="cont-box">
+                                    <strong class="sub-title">강한소상공인 성장지원</strong>
+                                    <strong class="main-title">스스로 커머스 스쿨 모집 중</strong>
+                                    <div class="ellip1 desc">1:1 맞춤 교육부터</div>
+                                    <div class="ellip1">최대 5천만원 사업화자금 지원</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="banner-item">
+                        <div class="item-wrap">
+                            <a class="link" href="#">
+                                <div class="thumb-box">
+                                    <img src="https://ssl.pstatic.net/melona/libs/1489/1489827/fb8334006cdb74ea13ac_20240313105014214.png"
+                                        alt="광고">
+                                </div>
+                                <div class="cont-box">
+                                    <strong class="sub-title">강한소상공인 성장지원</strong>
+                                    <strong class="main-title">스스로 커머스 스쿨 모집 중</strong>
+                                    <div class="ellip1 desc">1:1 맞춤 교육부터</div>
+                                    <div class="ellip1">최대 5천만원 사업화자금 지원</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="notice-area">
+                    <div class="notice-box">
+                        <a href="#" class="link">
+                            <h3 class="title">공지사항</h3>
+                        </a>
+                    </div>
+                    <a href="https://www.naver.com/more.html" class="link-all">서비스 전체보기</a>
+                </div>
+                <div class="link-area">
+                    <div class="partner-box-wrap">
+                        <div class="partner-box">
+                            <h3 class="title">Partners</h3>
+                            <ul class="partner-list">
+                                <li class="partner-item"><a href="#" target="_blank">프로젝트 꽃</a></li>
+                                <li class="partner-item"><a href="#" target="_blank">네이버 비즈니스</a></li>
+                                <li class="partner-item"><a href="#" target="_blank">네이버 비즈니스 스쿨</a></li>
+                                <li class="partner-item"><a href="#" target="_blank">네이버 광고</a></li>
+                                <li class="partner-item"><a href="#" target="_blank">스토어 개설</a></li>
+                                <li class="partner-item"><a href="#" target="_blank">지역업체 등록</a></li>
+                                <li class="partner-item"><a href="#" target="_blank">엑스퍼트 등록</a></li>
+                            </ul>
+                        </div>
+                        <div class="partner-box">
+                            <h3 class="title">Developers</h3>
+                            <ul class="partner-list">
+                                <li class="partner-item"><a href="#" target="_blank">네이버 개발자 센터</a></li>
+                                <li class="partner-item"><a href="#" target="_blank">오픈 API</a></li>
+                                <li class="partner-item"><a href="#" target="_blank">오픈소스</a></li>
+                                <li class="partner-item"><a href="#" target="_blank">네이버 D2</a></li>
+                                <li class="partner-item"><a href="#" target="_blank">네이버 D2SF</a></li>
+                                <li class="partner-item"><a href="#" target="_blank">네이버 랩스</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-box-wrap">
+                        <div class="service-box">
+                            <a href="#" target="_blank" class="service-logo"><img
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAMAAADVRocKAAAC91BMVEUAAACE1dAbf6jE1Nq/z9e82drQ3OG7ytOzws+6x9QNs7MeLpQSx60QrLAfL50gMakTxKyzwc8fMacSr6yywc8fMKIdLYzJ1d4KrrW6ydMJrrUbr6QgMKW2xNEcr6W7ydUfL5cIr7XBztgMtbMeL50fMaQQzrI0tK4cLIQUvqsVvqofMKLL0eGzxM+4xtIZuKcJr7XCyNt0xsILsLW1w9AdLYZwvL8gMaoeLY6CzMceLYyxz9fI1d0JwLMeLY4KrbXFzeAgMqvN2OEIrLUGsrVIurMfLpAcLIIIsbVWs7MeLpXIzt0UvakgMqwfL5x4wcEJsLYfMagWt6k6qqoil6DV2+UdK4EeMoEfLpOzws4/s7YgMacXvqoC27QcK38B17TE1dobKW0bKnID0bTP3OACzrQcKngcLIMbKXAD07QeLYfi6uzY4+YfLpDN2+DK2d0cK3zU4eTS3+IFzLQeL5ccKnXk7O7G19wgMJ3R3uHa5ejL2t7c5unI2Nzg6esBxrMfMKPp7vEeLYrr8fMNr7X2+PkeLYzt8vQE2LTx9fYfLpPz9/gHyLMOsrUHr7UCybQLs7YKu7UIuLUFvLQGwbUIxbQGw7QcKnTZ5OfV4uUJv67e5+rd5+rl7e8Ju6z3+vvm7vDp8PHs8vPw9fbv9PUgMaj6/PwgMqwJs6kNw7AFubULtrUGtbUJvrQEv7QAwq8MrqYKuKsKtqn+/v4Osaf7/P0K1rMHq6UeqKQNqKQhNoIgSH0Vvqoie5MhWIdV3cAcsaYhhZoglJkdLXnJ7+ia5tU61rgp1rceoKIhb4whZYgcM3fj9vJw3sdJx7xtd6sXt6hCT5AvPpAfPYQbKIMcJ34fP3q+8uSy49ux0tWd2NKYzM+A48yE08t6xchdv8FP0b1zfbcSpKIgToEbJ3nE5OG12Nmn19WM5tGKk8ehqMZlxcJJuLwgtLcbvbYc2bUTtaknNpA1Q4bZ7uuzuNuP3M9p0cNfbLUKtq5IVqk8Sp8jZpxaZZrUCA9eAAAAXXRSTlMABAj99BcO6IpfLhj9hPLp5ryyq6ZzXDnd2cuYkHtzbFFOQj0yJv76+ebc29fXx8TCuJuVlIqHgX5gPS0kEvn49/f08O3t6+fj2tLR0MzGeGNfWvbz7sXBpYN4PB4CDkIdAAAFcUlEQVRo3q3TdVwTYRjA8eeI0SKgYnd3d3d362tgO7u7Y4rd3d2K4pwwQkAQJUSxu7vbPzwYg9vufe+eO/neP9vtPr/n7t53gFMobxXPVu719pu4t/LM2a4gBwioeGZP9/0U9TyrFEyHepUSeyW45+wB/8GmXetZskpkdlGbz+w+CyVDThdV+QyT0FSMyFtikiIZMnOggIvnOMWaFwS0LBkkQj/q/mL8UpVDvv2ui6V89XvF+qm1C2rnNx8u6ferq8zfGlcHWdUbD/8PtbPI7p7aC5R49Mn6TFWZ5Z2jzKNPolOVJPtD04HEhLxFh6YH5lsqWHQQ1dVBCjFW2qUJo+8Xq3BAUeputenci27Qo6u9FGpC+8dV6pUODAZDQkKCwdAFRNz+s2wMiYwbQkwi7oWVBCvOHUep9yQkTkfMIsIv+/HygKVigaPoYuMFX+InGEQXJIS4kjRBN/b5JZutAaHcxDhQ3gVD7AWrU0a9TpgPO5OqnMUOciWJA9O8jh+IYwwmAhE39gnMrwFpchByQXCjn/kvCOf1ROil7z4LgnWuVZiQ8UpFh/gTgYs3tlvzFj4AiVbYN7oSoaDL20VaQAou6drE9UpcCCUWruyeL+ZbM3UL8Yw+YrHD4n2ozgdY9X3n05g3UnHCC6R0Xvv9pfaj/ImFoN3zqbQcJOlJkugpofWfafnoSGIp4rIvg5N5iXn+0aIS7vUQ/zBfFtMyFyPJogajXOpHrIQvYprNJf0JiEkAJu8TQqwF7VnE5mTaQyaX5PvRwUQkbLeEpH1UhqRw9ZHrP3ElInf3SOkEABmJWWhfaVG9iciHywulzNWAjY6kuiSV9wklFOELpeWHAsINZ2T3+d1JcXHrLmkVITcRGMJ8hsDehCZ8rozSkINYCKTmn8QRQn8AuQElwYtYCj4vyieG6gjdy51y6kMZYkUXmmj58kP9CcOHL7PlaKElEdEFR5031wPjCNvd2fKgOKHqF6CP1AeI7j1k+PA/aSfDdsiDjESBgDm8SJIiaCuCsgH6a7xAkuLmBASFA67zzAMuanEDdAoUHvX06dNgncldLQYU763Ex6hLkebPz7TaCfIHtOyt0kMtCpRROyAc1R8GXvy1Q1Qc/htmYNQFtyHqXEH1N2eD9ioH3NyM4gHO/VSJ2IKTC7ixqgZ8m4bjDVBMTb/waFx/IwfgNUCFK1NwHACgvZoBN5EDMgGAzRJWZSyz/3ADkjfwGo1V7PYwnPoc8MovZ2Dll18cjRzgAUnsDy5hYE24NwwpPyRrNJNuOcOSZxtx7MCk2kG6JQzfRyM5Qooix2lmsjxH9qdqIEX5TTRrGR6OQcoEZlwRSp/5BC/GjEYdI+whVfltYgfX0sXgH0CgiKh/fB3D7ck4thoQqHbS2kFGP2YyUi6w0OyUpW1rGG73x3HgwIJ98AGhU0cZ/Rhkf2oNsNLGYsC2YwwvkAMcQaTZ6TQfjzK8QfazcSDCdTiRajXD++cjUOzsgaKG3tz/uZLhHq4/PT9QVTt3NtmB1QwxI3EDnIChzeNzvLMrGd7fmoriCEyVH/P9Qyx3cP2KAJITDq9iuD8SxREkdT/C6j+Yjup3A0nOTQ8zPJiIyds6gaQCDY8wvJk4HcHOGyS1XbqC4f50jNL2IMWmwlKGd3cmItjmknn92VcwvL2F6ZeqKX37bszbv98HwU5mdfNlncfw4FYf3kSpg887aqQ3T1lW/u2dPnLk8/nKLmMoW9nDVjZfyomTzjdl1BtWcAYA+zylpGY4ONYEOc5u2evMs5a1QoHU+9I4ZXKwpcU98tgDDufc1s0re9YGdZYta5A1u5dbvlpgReOdp6JHNgc7fpCtnUO20ply5UfG/wEFXaai/lOVTwAAAABJRU5ErkJggg=="
+                                    alt="웨일 브라우저"></a>
+                            <div class="service-info">
+                                <strong class="title">웨일 브라우저</strong>
+                                <a class="desc" href="#">이용안내</a>
+                            </div>
+                        </div>
+                        <div class="service-box">
+                            <a href="#" target="_blank" class="service-logo"><img
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgBAMAAAAQtmoLAAAAIVBMVEUAAAD///+QkJBhYWFSUlItLS3j4+O8vLxKSkr09PR9fX3vnz0hAAAA0UlEQVRYw+3WsQ7BUBSA4Ru0TWyXuMXEG5BiJhZjxWRr4wV4A4MXMNh5U/RWmPT8c8+/nJykX3K73FxjNE3T6t0ueTcrt6DYkvkfMLZFZ7+1/NapBhkFMQV2QsGNgpgCe6egR4GjwI4o6FPgKLBHCroUDFIIXmeCYEiBTSnI5CD3H8rBwo+LGGz8OIjB0k8nB+Hvz0tAQIF5UBBREFwhMFMKIgpMTsGKggYF3zNJwZaCNgXmRMGegiYFnzPJQUiB4NbwT4ckLdd15dNB0zStDj0B379JDVnibr4AAAAASUVORK5CYII="
+                                    alt="기업 사이트"></a>
+                            <div class="service-info">
+                                <strong class="title">기업 사이트</strong>
+                                <a class="desc" href="#">바로가기</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="corp-area">
+                    <span class="blind">네이버 정책 및 약관</span>
+                    <ul class="corp-list">
+                        <li class="corp-item"><a href="#" target="_blank">회사소개</a></li>
+                        <li class="corp-item"><a href="#" target="_blank">인재채용</a></li>
+                        <li class="corp-item"><a href="#" target="_blank">제휴제안</a></li>
+                        <li class="corp-item"><a href="#" target="_blank">이용약관</a></li>
+                        <li class="corp-item"><a href="#" target="_blank"><strong>개인정보처리방침</strong></a></li>
+                        <li class="corp-item"><a href="#" target="_blank">청소년보호정책</a></li>
+                        <li class="corp-item"><a href="#" target="_blank">네이버 정책</a></li>
+                        <li class="corp-item"><a href="#" target="_blank">고객센터</a></li>
+                    </ul>
+                    <address class="addr">
+                        <a target="_blank" href="https://www.navercorp.com/">ⓒ NAVER Corp.</a>
+                    </address>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
